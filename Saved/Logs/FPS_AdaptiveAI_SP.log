@@ -1047,3 +1047,88 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.28-21.22.12:008][126]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
 [2019.10.28-21.22.12:299][126]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapB44008EB4C8861E7123890A6D1CD6EB4.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.10.28-21.22.15:591][126]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData8D1BBDA9479288FAC4BACAAF5841700D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-21.25.02:507][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.25.11:874][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.25.18:022][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.25.35:040][881]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.28-21.26.06:007][594]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/SK_AR4_SkeletonCA2B3B30485FE6760AEAAA8D777BE0C6.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton.uasset'
+[2019.10.28-21.26.07:119][651]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-21.26.12:712][910]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.28-21.26.28:769][784]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-21.26.28:795][784]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-21.27.21:799][808]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.28-21.27.43:775][225]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPerson/Character/Rifle.Rifle
+[2019.10.28-21.28.11:253][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.28.15:797][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.28.31:616][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.28.31:728][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Character/Rifle" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset" SILENT=true
+[2019.10.28-21.28.31:752][900]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/RifleCB0CBEAE4DDC53E025982A8D765748A7.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset'
+[2019.10.28-21.28.32:215][917]BlueprintLog: New page: Compile Rifle
+[2019.10.28-21.28.32:563][917]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2019.10.28-21.28.38:693][143]LogSlate: Window 'Rifle' being destroyed
+[2019.10.28-21.33.30:879][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Character/Rifle" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset" SILENT=true
+[2019.10.28-21.33.30:912][760]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Rifle834B07AB4DECCE6B1A4F1B99DFB47E2D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset'
+[2019.10.28-21.33.57:466][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.33.59:891][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Character/Rifle" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset" SILENT=true
+[2019.10.28-21.33.59:912][370]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Rifle7E2AA200499BBBCEEB07CEA0BF468DDA.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset'
+[2019.10.28-21.34.00:282][392]BlueprintLog: New page: Compile Rifle
+[2019.10.28-21.34.00:526][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.10.28-21.34.18:473][273]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton.SK_AR4_Skeleton
+[2019.10.28-21.34.18:490][273]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.28-21.34.18:518][273]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.28-21.34.45:236][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/Character/Rifle" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset" SILENT=true
+[2019.10.28-21.34.45:262][859]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Rifle96D2687F411FAF36C7098CAD6BCE1BFD.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Rifle.uasset'
+[2019.10.28-21.34.46:019][904]BlueprintLog: New page: Compile Rifle
+[2019.10.28-21.34.46:256][904]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.10.28-21.35.33:719][619]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.10.28-21.35.40:249][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.35.49:217][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDFC738B-4A09-7DC3-D3AA-CF9170FA4CF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=bafc8ea8429df148683e079dcbd558f1%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C3757fc42-aaf0-4b6b-ad30-00a88723b1c3&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: libcurl info message cache 0 (Connection 37 seems to be dead!)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: libcurl info message cache 1 (Closing connection 37)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: 000002079EA15580: libcurl info message cache 4 (Closing connection 38)
+[2019.10.28-21.35.57:078][982]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDFC738B-4A09-7DC3-D3AA-CF9170FA4CF7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=bafc8ea8429df148683e079dcbd558f1%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C3757fc42-aaf0-4b6b-ad30-00a88723b1c3&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.28-21.36.17:380][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.36.48:484][  5]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2019.10.28-21.36.48:730][  5]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto2B719C7824D3ADC7EE0130495D2791ECA.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.10.28-21.36.48:734][  5]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.301
+[2019.10.28-21.36.48:734][  5]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.301
+[2019.10.28-21.36.48:736][  5]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2019.10.28-21.36.48:750][  5]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2019.10.28-21.36.48:750][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2019.10.28-21.36.48:834][  5]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter_Auto2D065AAEE4832E27BC692B2A8386A0DDC.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2019.10.28-21.36.48:835][  5]LogFileHelpers: Auto-saving content packages took 0.100
+[2019.10.28-21.37.01:149][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.37.27:107][257]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter2E22AF5A43EBF13A95768BAACF63C91F.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.10.28-21.37.27:432][276]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.10.28-21.37.27:438][276]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2019.10.28-21.37.27:440][276]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.10.28-21.37.27:440][276]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.10.28-21.37.27:665][276]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.10.28-21.37.28:957][349]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-21.37.34:095][604]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.10.28-21.38.13:635][866]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter068041034B37366AB3C3798E0DE7444B.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.10.28-21.38.14:092][893]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.10.28-21.38.14:098][893]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2019.10.28-21.38.14:349][893]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2019.10.28-21.38.47:978][877]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter97DEEDA64DD6767FC947B1AE32320161.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.10.28-21.38.48:360][899]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.10.28-21.38.48:589][899]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.10.28-21.38.50:889][ 33]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-21.38.54:568][230]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.10.28-21.38.54:843][230]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap6EE0066445777CA9A0EF67B7F55B952B.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-21.38.58:125][230]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData312D7A914199568D625B9AB668D632D0.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-21.39.01:063][345]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD
+[2019.10.28-21.39.08:653][773]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-21.39.51:209][253]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2019.10.28-21.39.51:226][253]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.28-21.39.51:257][253]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.28-21.39.54:112][398]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.SK_Mannequin_Arms_Skeleton
+[2019.10.28-21.39.54:127][398]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.28-21.39.54:156][398]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.28-21.42.38:894][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.43.10:823][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.43.10:968][579]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/SK_Mannequin_Arms_Skeleton09DAB760446230F354F8668AD325E511.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset'
