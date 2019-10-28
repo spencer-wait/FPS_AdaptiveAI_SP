@@ -551,3 +551,446 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.28-20.11.17:748][975]LogEditorTransaction: Undo Move Actors
 [2019.10.28-20.11.17:766][975]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.10.28-20.11.26:470][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.18.48:459][241]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.10.28-20.18.48:623][241]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto1E594FC294380870976DB2BBAAE95C0DB.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.10.28-20.18.48:634][241]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.205
+[2019.10.28-20.18.48:634][241]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
+[2019.10.28-20.19.55:509][836]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2019.10.28-20.19.55:903][836]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.10.28-20.19.56:918][836]LogSlate: Took 0.004742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.28-20.19.57:076][837]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.28-20.20.33:980][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.20.34:899][354]LogSlate: Window 'TopDownCharacter' being destroyed
+[2019.10.28-20.20.41:419][745]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.20.41:426][745]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a TextRenderComponent, therefore ' Target ' must have a connection.
+[2019.10.28-20.20.41:765][745]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.10.28-20.20.42:073][756]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter20E8407842547C869A84CBA4B6AE8DBB.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.20.44:768][913]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter39A2943047F493F7BDC729923695AEDC.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.24.15:211][749]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacterC28B8BF84F32010DF52D93954F2D38AB.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.24.15:892][789]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.24.16:222][789]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.10.28-20.24.20:574][ 45]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.24.22:155][132]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.10.28-20.24.22:428][132]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapF9FBB5C6485F4EB9482A1DB97B122C24.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.24.26:412][132]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData2EFD4FBF45EB7E8841ED688EB34CC5E4.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.24.30:020][345]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (AICharacter)
+[2019.10.28-20.24.31:683][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.24.54:513][780]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (AICharacter)
+[2019.10.28-20.24.55:637][846]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (AICharacter)
+[2019.10.28-20.24.55:743][851]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2019.10.28-20.25.01:450][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.34.12:786][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.34.13:007][814]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/UsableThingInterface.UsableThingInterface
+[2019.10.28-20.34.15:450][919]LogSlate: Window 'UsableThingInterface' being destroyed
+[2019.10.28-20.34.28:039][673]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.34.31:256][819]LogBlueprint: Warning: [Compiler TopDownController] InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2019.10.28-20.34.31:285][819]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2019.10.28-20.35.02:195][554]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownController2E5D922A4E3DD7833C4A7D81DE979AA5.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2019.10.28-20.35.02:543][573]BlueprintLog: New page: Compile TopDownController
+[2019.10.28-20.35.02:550][573]LogBlueprint: Warning: [Compiler TopDownController] InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2019.10.28-20.35.02:790][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.10.28-20.35.25:241][694]BlueprintLog: New page: Compile TopDownController
+[2019.10.28-20.35.25:248][694]LogBlueprint: Warning: [Compiler TopDownController] InputAction Event references unknown Action 'SetDestination' for  InputAction SetDestination
+[2019.10.28-20.35.25:488][694]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.10.28-20.35.26:757][753]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownControllerB6BCB3804E398DC91D19479107BE5D23.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2019.10.28-20.35.28:331][831]LogSlate: Window 'TopDownController' being destroyed
+[2019.10.28-20.35.28:364][831]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.35.32:172][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.37.08:139][258]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_4.23/Engine/Source/Runtime/Engine/Classes/GameFramework/SpringArmComponent.h'
+[2019.10.28-20.37.56:453][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.39.00:624][658]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2019.10.28-20.39.02:192][748]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2019.10.28-20.39.09:431][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.39.09:503][166]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.28-20.39.09:518][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.39.09:518][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.28-20.39.09:519][166]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2019, 12:39:09 PM)
+[2019.10.28-20.39.09:520][166]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.28-20.39.09:522][166]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.39.09:532][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010040s)
+[2019.10.28-20.39.09:533][166]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.28-20.39.09:533][166]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2019.10.28-20.39.09:533][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011406s)
+[2019.10.28-20.39.09:568][166]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.10.28-20.39.09:580][166]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.28-20.39.09:635][166]LogInit: FAudioDevice initialized.
+[2019.10.28-20.39.09:647][166]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.28-20.39.09:651][166]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.10.28-16.39.09
+[2019.10.28-20.39.09:655][166]LogWorld: Bringing up level for play took: 0.005639
+[2019.10.28-20.39.09:655][166]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.10.28-20.39.09:670][166]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.10.28-20.39.09:671][166]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.491
+[2019.10.28-20.39.09:671][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.39.22:435][897]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.39.22:436][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.39.22:436][897]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.39.22:436][897]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.39.22:484][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.28-20.39.22:484][897]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.39.22:538][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.39.22:579][897]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.10.28-20.39.22:599][898]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.10.28-20.39.38:105][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.39.38:266][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.10.28-20.39.38:516][748]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap36F55B994215F84FAA1CFF8B11485F3D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.39.41:751][748]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData24B564DE488B1007A5A00C984F2325EF.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.39.50:890][113]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode
+[2019.10.28-20.40.10:849][ 66]LogSlate: Window 'TopDownGameMode' being destroyed
+[2019.10.28-20.40.10:900][ 66]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.40.14:989][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2019.10.28-20.40.26:564][724]LogSlate: Window 'TopDownController' being destroyed
+[2019.10.28-20.40.26:601][724]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.40.29:813][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2019.10.28-20.41.04:538][861]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.41.06:243][944]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2019.10.28-20.41.41:121][667]LogSlate: Window 'TopDownController' being destroyed
+[2019.10.28-20.41.41:148][667]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.41.43:746][783]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2019.10.28-20.41.56:947][550]LogRenderer: Reallocating scene render targets to support 1312x964 Format 10 NumSamples 1 (Frame:1).
+[2019.10.28-20.43.01:932][356]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter1C3A37FE4D2F623AF524988C80D038B8.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.43.02:353][381]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.43.02:591][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.10.28-20.43.08:263][719]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.43.11:670][917]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.10.28-20.43.11:931][917]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapB113C4D741149D3500C0E09F0E9D6B07.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.43.15:056][917]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData2FEE950A4521929D8440CF9E0A29B2B5.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.43.22:918][336]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.10.28-20.43.22:952][337]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2019.10.28-20.43.22:952][337]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2019.10.28-20.43.22:952][337]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2019.10.28-20.43.22:990][337]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.10.28-20.43.23:004][337]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.10.28-20.43.23:560][351]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.10.28-20.43.23:979][363]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.10.28-20.43.23:996][364]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.10.28-20.43.55:049][436]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.10.28-20.43.55:082][436]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.10.28-20.43.59:560][677]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2019.10.28-20.44.11:699][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.44.20:738][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.45.19:690][433]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.45.19:695][433]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2019.10.28-20.45.19:695][433]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2019.10.28-20.45.19:952][433]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2019.10.28-20.45.20:578][466]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter8CE5D56348B46EEEF84490B9F64AFD6A.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.47.12:653][124]Cmd: TRANSACTION UNDO
+[2019.10.28-20.47.12:653][124]LogEditorTransaction: Undo Change Collision Profile
+[2019.10.28-20.47.16:973][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.47.17:093][385]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter68ED21D149FF7C6FE1AAF7ADDC763891.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.47.17:484][408]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.47.17:489][408]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2019.10.28-20.47.17:490][408]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a ActorComponent, therefore ' Target ' must have a connection.
+[2019.10.28-20.47.17:730][408]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2019.10.28-20.47.32:229][256]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter3A02D77F40A180894C12389E5616F9D4.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.47.32:652][281]BlueprintLog: New page: Compile TopDownCharacter
+[2019.10.28-20.47.32:878][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.10.28-20.47.46:410][ 91]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.47.47:654][159]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.10.28-20.47.47:877][159]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap2D7EB7F74FB04C8816FC7482B4D172DC.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.47.51:125][159]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData509586A347BE42BEE284D4AC723E5816.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.47.51:685][192]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.28-20.47.51:699][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.47.51:699][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.28-20.47.51:699][192]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2019, 12:47:51 PM)
+[2019.10.28-20.47.51:699][192]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.47.51:709][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009361s)
+[2019.10.28-20.47.51:710][192]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.28-20.47.51:710][192]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2019.10.28-20.47.51:710][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010507s)
+[2019.10.28-20.47.51:746][192]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2019.10.28-20.47.51:756][192]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.28-20.47.51:812][192]LogInit: FAudioDevice initialized.
+[2019.10.28-20.47.51:824][192]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.28-20.47.51:827][192]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.10.28-16.47.51
+[2019.10.28-20.47.51:828][192]LogWorld: Bringing up level for play took: 0.002390
+[2019.10.28-20.47.51:828][192]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2019.10.28-20.47.51:830][192]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.332
+[2019.10.28-20.47.51:830][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.48.10:609][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.48.10:609][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.48.10:609][177]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.48.10:610][177]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.48.10:658][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.28-20.48.10:658][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.48.10:697][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.48.10:701][177]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2019.10.28-20.48.10:722][178]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.10.28-20.48.12:276][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.48.12:403][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.10.28-20.48.12:679][266]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapF4187162414880EE89248598009295B6.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.48.15:887][266]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData426A5DC543385348D08EA09B9236BD53.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.48.20:063][462]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2019.10.28-20.48.51:769][872]LogSlate: Window 'TopDownController' being destroyed
+[2019.10.28-20.48.51:804][872]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.48.54:835][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.10.28-20.49.02:691][  0]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.49.04:760][110]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownGameMode.TopDownGameMode
+[2019.10.28-20.49.15:316][635]LogSlate: Window 'Undo History' being destroyed
+[2019.10.28-20.49.15:342][635]LogSlate: Window 'Undo History' being destroyed
+[2019.10.28-20.49.22:476][997]LogSlate: Window 'TopDownGameMode' being destroyed
+[2019.10.28-20.49.40:280][ 64]LogSlate: Window 'My Blueprint' being destroyed
+[2019.10.28-20.49.40:287][ 64]LogSlate: Window 'My Blueprint' being destroyed
+[2019.10.28-20.50.01:454][331]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.10.28-20.50.01:481][333]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2019.10.28-20.50.01:481][333]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2019.10.28-20.50.01:481][333]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2019.10.28-20.50.09:368][796]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.50.12:756][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.10.28-20.50.28:170][972]LogSlate: Window 'Replace References?' being destroyed
+[2019.10.28-20.50.28:177][972]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.50.29:175][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.10.28-20.50.29:590][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.10.28-20.50.34:811][972]LogSlate: Window 'Save Content' being destroyed
+[2019.10.28-20.50.34:859][972]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownGameMode5FB9D647482BD6D5501B2BBFB67294EF.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownGameMode.uasset'
+[2019.10.28-20.50.38:634][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.10.28-20.50.38:876][159]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap3517D5DF4C12348E9DD9889330652B1C.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.50.41:991][159]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData41C5EBD74B6A39CB35C6EEB32151DE04.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.50.46:359][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.10.28-20.50.48:527][375]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.50.48:631][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.10.28-20.50.48:667][375]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2019.10.28-20.50.48:699][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2019.10.28-20.51.02:760][931]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.10.28-20.51.02:761][931]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AICharacter.AICharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2019.10.28-20.51.02:761][931]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionResult_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2019.10.28-20.51.02:761][931]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2019.10.28-20.51.02:761][931]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AICharacter.SKEL_AICharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2019.10.28-20.51.02:843][931]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacter1B47512141E68BA1EB8AB2AEF8CBC6BC.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/AICharacter.uasset'
+[2019.10.28-20.51.02:866][931]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter17A6303C4D0AB067E678F781E3F24C59.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.51.04:811][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.10.28-20.51.06:250][  9]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.51.06:358][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.10.28-20.51.06:395][  9]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.10.28-20.51.06:428][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.10.28-20.51.21:826][906]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.SKEL_AICharacter_C' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionResult_0' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.SKEL_AICharacter_C:Value' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.SKEL_AICharacter_C:IsUsable' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.SKEL_AICharacter_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.SKEL_AICharacter_C:Used' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter_C:Value' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter_C:IsUsable' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:929][906]LogMetaData: Removing '/Game/AIBP/Blueprints/AICharacter.AICharacter_C:Used' ref from Metadata '/Game/TopDownBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface_C' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface:Used.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface:CanUse?.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface:CanUse?.K2Node_FunctionResult_0' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface:UseObject.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.SKEL_UsableThingInterface_C:Used' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.SKEL_UsableThingInterface_C' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:937][906]LogMetaData: Removing '/Game/AIBP/Blueprints/UsableThingInterface.UsableThingInterface_C:Used' ref from Metadata '/Game/TopDownBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.51.21:977][906]LogMetaData: Removing '/Game/AIBP/TopDownOverview.TopDownOverview_C' ref from Metadata '/Game/TopDownBP/TopDownOverview.PackageMetaData'
+[2019.10.28-20.51.21:977][906]LogMetaData: Removing '/Game/AIBP/TopDownOverview.SKEL_TopDownOverview_C' ref from Metadata '/Game/TopDownBP/TopDownOverview.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic_C' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:BndEvt__AIPerception_K2Node_ComponentBoundEvent_0_PerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:ActorKeyName' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:AIPerception' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:986][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.SKEL_AICon_Basic_C' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:987][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic_C:ActorKeyName' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:987][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic_C:AIPerception' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.21:987][906]LogMetaData: Removing '/Game/AIBP/AI/AICon_Basic.AICon_Basic_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.51.22:003][906]LogMetaData: Removing '/Game/AIBP/AI/BT_Basic.BT_Basic:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/TopDownBP/AI/BT_Basic.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.FindRandomLocation_C' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:LocationKey' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:Radius' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.SKEL_FindRandomLocation_C' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.FindRandomLocation_C:LocationKey' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.FindRandomLocation_C:Radius' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:011][906]LogMetaData: Removing '/Game/AIBP/AI/FindRandomLocation.FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/TopDownBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.UseObject_C' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.SKEL_UseObject_C:ReceiveExecuteAI' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.SKEL_UseObject_C:Value' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.SKEL_UseObject_C:TargetActorKey' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.SKEL_UseObject_C' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.UseObject_C:Value' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.UseObject_C:TargetActorKey' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:020][906]LogMetaData: Removing '/Game/AIBP/AI/UseObject.UseObject_C:ReceiveExecuteAI' ref from Metadata '/Game/TopDownBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.51.22:239][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.10.28-20.51.22:239][906]LogMetaData: Removing '/Game/AIBP/Maps/TopDownExampleMap.TopDownExampleMap_C' ref from Metadata '/Game/TopDownBP/Maps/TopDownExampleMap.PackageMetaData'
+[2019.10.28-20.51.22:239][906]LogMetaData: Removing '/Game/AIBP/Maps/TopDownExampleMap.SKEL_TopDownExampleMap_C' ref from Metadata '/Game/TopDownBP/Maps/TopDownExampleMap.PackageMetaData'
+[2019.10.28-20.51.22:411][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownExampleMap_BuiltData8AAFA1EB4BA07D9C0FFAD892E4B5B701.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2019.10.28-20.51.22:441][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/Blueprints/AICharacter" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/AICharacter.uasset" SILENT=true
+[2019.10.28-20.51.22:470][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacter7AFE58F6457888F0CE39F8871AA44F36.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/AICharacter.uasset'
+[2019.10.28-20.51.22:489][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/UsableThingInterfaceC0A0B3FC4B105748A9FB2C8ECDC5F2D6.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/UsableThingInterface.uasset'
+[2019.10.28-20.51.22:505][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter_CD8A8D78F4C578FBA47255C90900F7189.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/TopDownCharacter_C.uasset'
+[2019.10.28-20.51.22:521][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter52C5CAE9439EBE0AC844D8A068175F95.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.51.22:535][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter7CF89D0C4C5CEC3944F496AEF4A051B1.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.51.22:549][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Default__TopDownGameMode_CC316E03E4DEFE004D13901ACDE1B0CB9.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/Default__TopDownGameMode_C.uasset'
+[2019.10.28-20.51.22:563][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownGameMode_C2CB7645F4794D1750E4027B8630C8E77.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/TopDownGameMode_C.uasset'
+[2019.10.28-20.51.22:576][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownGameMode6BD4F5C348E9490FB9208BB327BBA645.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Blueprints/TopDownGameMode.uasset'
+[2019.10.28-20.51.22:582][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/TopDownOverview" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/TopDownOverview.uasset" SILENT=true
+[2019.10.28-20.51.22:596][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownOverview7E3C4B5B4BCA7F7E2D5E9A91B20D407F.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/TopDownOverview.uasset'
+[2019.10.28-20.51.22:602][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/AI/AICon_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/AICon_Basic.uasset" SILENT=true
+[2019.10.28-20.51.22:630][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICon_Basic2EEBBADE40834D8541595CAB3607BB3F.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/AICon_Basic.uasset'
+[2019.10.28-20.51.22:636][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/AI/BB_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/BB_Basic.uasset" SILENT=true
+[2019.10.28-20.51.22:643][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BB_BasicCC602E5E42315D057BE838B2ADBB17FF.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/BB_Basic.uasset'
+[2019.10.28-20.51.22:648][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/AI/BT_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/BT_Basic.uasset" SILENT=true
+[2019.10.28-20.51.22:661][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_Basic734FB8224D80E89CAA388B8127F48496.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/BT_Basic.uasset'
+[2019.10.28-20.51.22:668][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/AI/FindRandomLocation" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/FindRandomLocation.uasset" SILENT=true
+[2019.10.28-20.51.22:688][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FindRandomLocation4691508B4C331BF8245D00AC78A12E3D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/FindRandomLocation.uasset'
+[2019.10.28-20.51.22:699][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AIBP/AI/UseObject" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/UseObject.uasset" SILENT=true
+[2019.10.28-20.51.22:741][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/UseObjectA5E4CE8F46DD46BCD595C5BBAF9F9CB8.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/AI/UseObject.uasset'
+[2019.10.28-20.51.22:807][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2019.10.28-20.51.23:032][906]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownExampleMap10A46FE34581565ACFDE0B8EC0C85906.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AIBP/Maps/TopDownExampleMap.umap'
+[2019.10.28-20.51.23:040][906]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.290
+[2019.10.28-20.51.24:131][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.10.28-20.51.24:168][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.10.28-20.51.24:203][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.28-20.51.24:239][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.10.28-20.51.24:276][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.28-20.51.24:315][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.10.28-20.51.24:350][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.10.28-20.51.24:391][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.10.28-20.51.24:430][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.28-20.51.24:471][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2019.10.28-20.51.24:507][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.10.28-20.51.24:550][906]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.10.28-20.51.24:591][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.10.28-20.51.46:419][149]LogSlate: Window 'Undo History' being destroyed
+[2019.10.28-20.52.17:773][945]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2019.10.28-20.52.22:381][945]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.28-20.52.22:388][945]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+	Asset Name: /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C
+[2019.10.28-20.52.23:066][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.10.28-20.53.28:399][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter_C' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter_C:Value' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter_C:IsUsable' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter_C:Used' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.SKEL_AICharacter_C' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.SKEL_AICharacter_C:Value' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.SKEL_AICharacter_C:IsUsable' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.SKEL_AICharacter_C:UserConstructionScript' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.SKEL_AICharacter_C:Used' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionResult_0' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:400][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/AICharacter.AICharacter:CanUse?.K2Node_FunctionEntry_0' ref from Metadata '/Game/AIBP/Blueprints/AICharacter.PackageMetaData'
+[2019.10.28-20.53.28:414][ 59]LogMetaData: Removing '/Game/AI_BP/TopDownOverview.TopDownOverview_C' ref from Metadata '/Game/AIBP/TopDownOverview.PackageMetaData'
+[2019.10.28-20.53.28:414][ 59]LogMetaData: Removing '/Game/AI_BP/TopDownOverview.SKEL_TopDownOverview_C' ref from Metadata '/Game/AIBP/TopDownOverview.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface_C' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface_C:Used' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.SKEL_UsableThingInterface_C' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.SKEL_UsableThingInterface_C:Used' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface:Used.K2Node_FunctionEntry_0' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface:CanUse?.K2Node_FunctionEntry_0' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface:CanUse?.K2Node_FunctionResult_0' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:422][ 59]LogMetaData: Removing '/Game/AI_BP/Blueprints/UsableThingInterface.UsableThingInterface:UseObject.K2Node_FunctionEntry_0' ref from Metadata '/Game/AIBP/Blueprints/UsableThingInterface.PackageMetaData'
+[2019.10.28-20.53.28:613][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2019.10.28-20.53.28:613][ 59]LogMetaData: Removing '/Game/AI_BP/Maps/TopDownExampleMap.TopDownExampleMap_C' ref from Metadata '/Game/AIBP/Maps/TopDownExampleMap.PackageMetaData'
+[2019.10.28-20.53.28:613][ 59]LogMetaData: Removing '/Game/AI_BP/Maps/TopDownExampleMap.SKEL_TopDownExampleMap_C' ref from Metadata '/Game/AIBP/Maps/TopDownExampleMap.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic_C' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic_C:ReceiveBeginPlay' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic_C:AIPerception' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic_C:ActorKeyName' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:ReceiveBeginPlay' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:ReceiveTick' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:BndEvt__AIPerception_K2Node_ComponentBoundEvent_0_PerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:ActorKeyName' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:AIPerception' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.SKEL_AICon_Basic_C:UserConstructionScript' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic:EventGraph.K2Node_Event_1' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:631][ 59]LogMetaData: Removing '/Game/AI_BP/AI/AICon_Basic.AICon_Basic:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AIBP/AI/AICon_Basic.PackageMetaData'
+[2019.10.28-20.53.28:639][ 59]LogMetaData: Removing '/Game/AI_BP/AI/BT_Basic.BT_Basic:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/AIBP/AI/BT_Basic.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.UseObject_C' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.UseObject_C:Value' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.UseObject_C:TargetActorKey' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.UseObject_C:ReceiveExecuteAI' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.SKEL_UseObject_C' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.SKEL_UseObject_C:ReceiveExecuteAI' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.SKEL_UseObject_C:Value' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:646][ 59]LogMetaData: Removing '/Game/AI_BP/AI/UseObject.SKEL_UseObject_C:TargetActorKey' ref from Metadata '/Game/AIBP/AI/UseObject.PackageMetaData'
+[2019.10.28-20.53.28:654][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.FindRandomLocation_C' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.FindRandomLocation_C:LocationKey' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.FindRandomLocation_C:Radius' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.SKEL_FindRandomLocation_C' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:LocationKey' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:655][ 59]LogMetaData: Removing '/Game/AI_BP/AI/FindRandomLocation.SKEL_FindRandomLocation_C:Radius' ref from Metadata '/Game/AIBP/AI/FindRandomLocation.PackageMetaData'
+[2019.10.28-20.53.28:856][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownExampleMap_BuiltData825D3A494EB08C55B8A8F7B56EC2C5CA.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2019.10.28-20.53.28:877][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/Blueprints/AICharacter" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset" SILENT=true
+[2019.10.28-20.53.28:904][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacter4F4D7B8241FA941374DE5FB4E4E5FC0C.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset'
+[2019.10.28-20.53.28:910][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI/BB_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/BB_Basic.uasset" SILENT=true
+[2019.10.28-20.53.28:917][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BB_BasicBAB15B834B2D70DAC345D99A6E969CFC.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/BB_Basic.uasset'
+[2019.10.28-20.53.28:923][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/TopDownOverview" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/TopDownOverview.uasset" SILENT=true
+[2019.10.28-20.53.28:936][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownOverviewC8D7910F43746798C909D8B5DE5A8F02.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/TopDownOverview.uasset'
+[2019.10.28-20.53.28:954][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/UsableThingInterfaceD6A1BE9648B1EB3530533482C1B1C7ED.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/UsableThingInterface.uasset'
+[2019.10.28-20.53.29:003][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2019.10.28-20.53.29:208][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownExampleMap8D37AF6E46E55816344FBEA994A43E20.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Maps/TopDownExampleMap.umap'
+[2019.10.28-20.53.29:215][ 59]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.256
+[2019.10.28-20.53.29:226][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter_C642B911C4DDFD40A8E6959A34BF231FB.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/TopDownCharacter_C.uasset'
+[2019.10.28-20.53.29:233][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI/AICon_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/AICon_Basic.uasset" SILENT=true
+[2019.10.28-20.53.29:258][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICon_Basic9F5B0BF642DB5FA67C2D19A4E5B13DBA.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/AICon_Basic.uasset'
+[2019.10.28-20.53.29:264][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI/BT_Basic" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/BT_Basic.uasset" SILENT=true
+[2019.10.28-20.53.29:277][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_Basic9B39AA9F43A536FF7E62619952A3700E.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/BT_Basic.uasset'
+[2019.10.28-20.53.29:283][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI/UseObject" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/UseObject.uasset" SILENT=true
+[2019.10.28-20.53.29:304][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/UseObjectBCA89BB54A15C6D759CF20A9BF3C176C.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/UseObject.uasset'
+[2019.10.28-20.53.29:312][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI/FindRandomLocation" FILE="../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/FindRandomLocation.uasset" SILENT=true
+[2019.10.28-20.53.29:331][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FindRandomLocation31645AA546E02B674111A7A6125D198C.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI/FindRandomLocation.uasset'
+[2019.10.28-20.53.29:345][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacter552DB22F406CDA97D7864AAB99C0052A.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.53.29:359][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Default__TopDownGameMode_CC14ECCA54189E99FAE72F2A1671E23E0.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/Default__TopDownGameMode_C.uasset'
+[2019.10.28-20.53.29:378][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownGameMode_C9CA27A55491FCF2BFE37DDACF9AF8C36.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/TopDownGameMode_C.uasset'
+[2019.10.28-20.53.29:395][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownGameMode48924E334D55150BF1B3CC9232A4CC67.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/TopDownGameMode.uasset'
+[2019.10.28-20.53.30:756][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.10.28-20.53.30:789][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.28-20.53.30:820][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.10.28-20.53.30:857][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.10.28-20.53.30:893][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.10.28-20.53.30:923][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.10.28-20.53.30:955][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.10.28-20.53.30:989][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2019.10.28-20.53.31:024][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.10.28-20.53.31:060][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2019.10.28-20.53.31:100][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.10.28-20.53.31:135][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.28-20.53.31:166][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.28-20.53.31:200][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2019.10.28-20.53.31:233][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.10.28-20.53.31:270][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.10.28-20.53.31:304][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2019.10.28-20.53.31:337][ 59]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/TopDownCharacterAE779E80479825327E21F9974E615565.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2019.10.28-20.53.38:476][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.10.28-20.53.38:726][470]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap086A29B3417A7F8A460B43898A4699DF.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.53.41:836][470]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData9CD8CECF41B2306BA4228E814BDB3C7C.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.53.42:894][533]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.28-20.53.42:908][533]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.53.42:908][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.28-20.53.42:908][533]PIE: New page: PIE session: FirstPersonExampleMap (Oct 28, 2019, 12:53:42 PM)
+[2019.10.28-20.53.42:908][533]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.53.42:917][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009084s)
+[2019.10.28-20.53.42:918][533]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.10.28-20.53.42:918][533]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2019.10.28-20.53.42:918][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010141s)
+[2019.10.28-20.53.42:950][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.10.28-20.53.42:959][533]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.28-20.53.43:014][533]LogInit: FAudioDevice initialized.
+[2019.10.28-20.53.43:021][533]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.28-20.53.43:024][533]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.10.28-16.53.43
+[2019.10.28-20.53.43:025][533]LogWorld: Bringing up level for play took: 0.002492
+[2019.10.28-20.53.43:025][533]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2019.10.28-20.53.43:027][533]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.865
+[2019.10.28-20.53.43:027][533]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.53.54:598][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.53.54:598][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.53.54:598][225]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.10.28-20.53.54:598][225]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-20.53.54:614][225]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.28-20.53.54:615][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.10.28-20.53.54:652][225]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.28-20.53.54:657][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.10.28-20.53.54:703][227]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.10.28-20.54.00:777][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.54.00:900][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2019.10.28-20.54.01:112][595]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapF6AA01134AAAA9BB4599EAABCE82199D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-20.54.04:282][595]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltDataB57296D04D9D882B3A4315829507ECC7.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
