@@ -994,3 +994,56 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.28-20.54.00:900][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2019.10.28-20.54.01:112][595]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapF6AA01134AAAA9BB4599EAABCE82199D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.10.28-20.54.04:282][595]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltDataB57296D04D9D882B3A4315829507ECC7.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.10.28-20.56.57:261][201]LogEditorViewport: Clicking on Actor (LMB): AICharacter_C (AICharacter)
+[2019.10.28-20.56.59:068][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.57.01:670][460]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_BP/Blueprints/AICharacter.AICharacter
+[2019.10.28-20.57.19:640][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-20.57.20:051][188]LogSlate: Window 'AICharacter' being destroyed
+[2019.10.28-20.58.45:096][986]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.10.28-20.59.20:016][ 51]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-20.59.20:023][ 51]LogSlate: Window 'Project Settings' being destroyed
+[2019.10.28-21.01.52:902][867]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.10.28-21.05.08:380][228]LogDirectoryWatcher: A directory notification failed for 'C:/Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2019.10.28-21.05.08:380][228]LogDirectoryWatcher: A directory notification failed for 'C:/Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Developers/spenc/Collections/' because it could not be accessed. Aborting watch request...
+[2019.10.28-21.05.08:380][228]LogDirectoryWatcher: A directory notification failed for 'C:/Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2019.10.28-21.21.39:214][ 30]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton.SK_AR4_Skeleton
+[2019.10.28-21.21.39:232][ 30]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.10.28-21.21.39:267][ 30]LogTexture: Display: Building textures: T_762x39_M_MSK (AutoDXT, 256X256)
+[2019.10.28-21.21.39:267][ 30]LogSkeletalMesh: Building Skeletal Mesh SK_AR4...
+[2019.10.28-21.21.39:296][ 30]LogTexture: Display: Building textures: T_762x39_ALB (AutoDXT, 256X256)
+[2019.10.28-21.21.39:296][ 30]LogTexture: Display: Building textures: T_762x39_NRM (BC5, 256X256)
+[2019.10.28-21.21.39:296][ 30]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4.SK_AR4
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_Stripes__Pattern (AutoDXT, 1024X1024)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_AR4_ALB (AutoDXT, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_KA74U_ALB (AutoDXT, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_KA74U_NRM (BC5, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_KA74U_M_MSK (AutoDXT, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_AR4_M_MSK (AutoDXT, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogTexture: Display: Building textures: T_AR4_NRM (BC5, 2048X2048)
+[2019.10.28-21.21.46:498][ 30]LogMaterial: Display: Missing cached shader map for material M_Weapon_Master_USE, compiling. 
+[2019.10.28-21.21.47:583][ 30]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 108
+[2019.10.28-21.21.47:583][ 30]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 98
+[2019.10.28-21.21.47:583][ 30]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 88
+[2019.10.28-21.21.47:583][ 30]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 78
+[2019.10.28-21.21.48:144][ 30]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.10.28-21.21.48:162][ 30]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.10.28-21.21.48:270][ 30]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.10.28-21.21.51:354][ 88]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 68
+[2019.10.28-21.21.53:103][143]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2019.10.28-21.21.53:352][147]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 48
+[2019.10.28-21.21.54:841][188]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2019.10.28-21.21.55:513][209]LogSlate: Window 'SK_AR4_Skeleton' being destroyed
+[2019.10.28-21.21.58:341][368]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2019.10.28-21.22.01:367][549]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2019.10.28-21.22.02:052][590]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2019.10.28-21.22.03:004][647]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2019.10.28-21.22.03:202][659]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2019.10.28-21.22.03:731][689]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2019.10.28-21.22.04:682][738]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.10.28-21.22.05:239][769]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.10.28-21.22.05:251][769]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.10.28-21.22.10:569][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-21.22.10:670][ 61]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/SK_AR4_Skeleton0C38EAE245A0C9C8D265AAAA2CC7A445.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton.uasset'
+[2019.10.28-21.22.12:008][126]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2019.10.28-21.22.12:299][126]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapB44008EB4C8861E7123890A6D1CD6EB4.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.10.28-21.22.15:591][126]LogSavePackage: Moving '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData8D1BBDA9479288FAC4BACAAF5841700D.tmp' to '../../../../../../Users/spenc/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
