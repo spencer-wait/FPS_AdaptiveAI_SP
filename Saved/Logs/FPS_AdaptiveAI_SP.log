@@ -1,4 +1,4 @@
-﻿Log file open, 11/05/19 11:22:34
+﻿Log file open, 11/05/19 18:22:19
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FPS_AdaptiveAI_SP
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.075564
+LogStats: Stats thread started at 0.071270
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,438 +157,738 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:594][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:599][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:599][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.05-16.22.34:599][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.05-16.22.34:600][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.05-16.22.34:600][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.05-16.22.34:603][  0]LogHAL: Display: Platform has ~ 16 GB [17125662720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.05-16.22.34:603][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.05-16.22.34:603][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.05-16.22.34:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.05-16.22.34:604][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
-[2019.11.05-16.22.34:604][  0]LogInit: Computer: DESKTOP-AV9LLO7
-[2019.11.05-16.22.34:604][  0]LogInit: User: Spencer
-[2019.11.05-16.22.34:604][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.11.05-16.22.34:604][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.05-16.22.34:605][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.11.05-16.22.34:605][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.05-16.22.34:605][  0]LogMemory: Process Physical Memory: 102.07 MB used, 102.07 MB peak
-[2019.11.05-16.22.34:605][  0]LogMemory: Process Virtual Memory: 99.88 MB used, 99.88 MB peak
-[2019.11.05-16.22.34:605][  0]LogMemory: Physical Memory: 7848.30 MB used,  8484.00 MB free, 16332.30 MB total
-[2019.11.05-16.22.34:605][  0]LogMemory: Virtual Memory: 4699.47 MB used,  134213032.00 MB free, 134217728.00 MB total
-[2019.11.05-16.22.34:607][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.11.05-16.22.34:631][  0]LogInit: Using OS detected language (en-US).
-[2019.11.05-16.22.34:631][  0]LogInit: Using OS detected locale (en-US).
-[2019.11.05-16.22.34:632][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.11.05-16.22.34:787][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.05-16.22.34:823][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.05-16.22.34:823][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.05-16.22.34:978][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.05-16.22.34:978][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.05-16.22.35:035][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.11.05-16.22.35:036][  0]LogD3D11RHI:       8079/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.11.05-16.22.35:038][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.05-16.22.35:038][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.05-16.22.35:038][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.05-16.22.35:047][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.05-16.22.35:047][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.11.05-16.22.35:047][  0]LogWindows: EnumDisplayDevices:
-[2019.11.05-16.22.35:047][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.11.05-16.22.35:047][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.05-16.22.35:047][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.05-16.22.35:047][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.11.05-16.22.35:047][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.11.05-16.22.35:047][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.11.05-16.22.35:048][  0]LogD3D11RHI:   Driver Version: 441.08 (internal:26.21.14.4108, unified:441.08)
-[2019.11.05-16.22.35:048][  0]LogD3D11RHI:      Driver Date: 10-22-2019
-[2019.11.05-16.22.35:048][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2019.11.05-16.22.35:091][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.05-16.22.35:103][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.05-16.22.35:363][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.05-16.22.35:373][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.05-16.22.35:383][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.05-16.22.35:392][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.05-16.22.35:402][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.05-16.22.35:411][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.05-16.22.35:421][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.05-16.22.35:430][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.05-16.22.35:435][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.05-16.22.35:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.05-16.22.35:466][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.05-16.22.35:467][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.05-16.22.35:468][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.05-16.22.35:486][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.05-16.22.35:486][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.05-16.22.35:499][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.05-16.22.35:499][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.05-16.22.35:506][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.05-16.22.35:513][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.05-16.22.35:520][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.05-16.22.35:528][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.05-16.22.35:551][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.05-16.22.35:551][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.05-16.22.35:551][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.05-16.22.35:561][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.05-16.22.35:624][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Intermediate/Shaders/WorkingDirectory/2684/).
-[2019.11.05-16.22.35:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Spencer/AppData/Local/Temp/UnrealShaderWorkingDir/5CD591A54BA351AB09537DBAD24E40A4/'.
-[2019.11.05-16.22.35:627][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.05-16.22.35:627][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.05-16.22.35:627][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.05-16.22.36:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.05-16.22.36:224][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.05-16.22.36:235][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.05-16.22.36:235][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.05-16.22.36:235][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.05-16.22.36:236][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spencer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.05-16.22.36:236][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.05-16.22.36:236][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.05-16.22.36:256][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.05-16.22.36:259][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.05-16.22.36:260][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.05-16.22.36:312][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2019.11.05-16.22.36:595][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.05-16.22.36:752][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.05-16.22.36:752][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.05-16.22.36:752][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.05-16.22.36:752][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.05-16.22.36:752][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.05-16.22.36:761][  0]LogNetVersion: FPS_AdaptiveAI_SP 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1732601486)
-[2019.11.05-16.22.37:176][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.058494 seconds
-[2019.11.05-16.22.37:186][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.11.05-16.22.37:186][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.11.05-16.22.37:186][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.05-16.22.38:029][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.05-16.22.38:031][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.05-16.22.38:086][  0]SourceControl: Source control is disabled
-[2019.11.05-16.22.38:086][  0]SourceControl: Source control is disabled
-[2019.11.05-16.22.38:087][  0]SourceControl: Source control is disabled
-[2019.11.05-16.22.38:088][  0]SourceControl: Source control is disabled
-[2019.11.05-16.22.38:168][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.05-16.22.38:389][  0]LogOcInput: OculusInput pre-init called
-[2019.11.05-16.22.38:395][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.11.05-16.22.38:395][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.11.05-16.22.38:471][  0]LogEngine: Initializing Engine...
-[2019.11.05-16.22.38:472][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.05-16.22.38:473][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.05-16.22.38:679][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.05-16.22.38:700][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.05-16.22.38:748][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.11.05-16.22.38:899][  0]LogInit: FAudioDevice initialized.
-[2019.11.05-16.22.38:900][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.05-16.22.38:976][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.05-16.22.38:989][  0]LogInit: Texture streaming: Enabled
-[2019.11.05-16.22.39:013][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.05-16.22.39:083][  0]LogInit: Transaction tracking system initialized
-[2019.11.05-16.22.39:124][  0]BlueprintLog: New page: Editor Load
-[2019.11.05-16.22.39:255][  0]LocalizationService: Localization service is disabled
-[2019.11.05-16.22.39:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/' took 0.01s
-[2019.11.05-16.22.39:507][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.05-16.22.39:507][  0]LogCook: Display: Mobile HDR setting 1
-[2019.11.05-16.22.39:706][  0]SourceControl: Source control is disabled
-[2019.11.05-16.22.39:706][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.05-16.22.39:706][  0]LightingResults: New page: Lighting Build
-[2019.11.05-16.22.39:709][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.11.05-16.22.39:710][  0]MapCheck: New page: Map Check
-[2019.11.05-16.22.39:710][  0]LightingResults: New page: Lighting Build
-[2019.11.05-16.22.39:741][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
-[2019.11.05-16.22.39:743][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:743][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:746][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:746][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:746][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:746][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:747][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:747][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/Blueprints/AICharacter.uasset' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:747][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:747][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:747][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:748][  0]LoadErrors: Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
-[2019.11.05-16.22.39:748][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Animations/ThirdPerson_AnimBP': Can't find file.
-[2019.11.05-16.22.39:748][  0]LoadErrors: Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
-[2019.11.05-16.22.39:749][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:749][  0]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by CharacterMesh0
-[2019.11.05-16.22.39:749][  0]LogLinker: Warning: While loading '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap' failed to load '/Game/Mannequin/Character/Mesh/SK_Mannequin': Can't find file.
-[2019.11.05-16.22.39:749][  0]LoadErrors: Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by CharacterMesh0
-[2019.11.05-16.22.40:037][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.11.05-16.22.40:044][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.05-16.22.40:077][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
-[2019.11.05-16.22.40:077][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.05-16.22.40:077][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.141ms to complete.
-[2019.11.05-16.22.40:077][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.372
-[2019.11.05-16.22.40:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.05-16.22.40:198][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.05-16.22.40:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.05-16.22.40:212][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.05-16.22.40:219][  0]LogCollectionManager: Loaded 0 collections in 0.002516 seconds
-[2019.11.05-16.22.40:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Collections/' took 0.00s
-[2019.11.05-16.22.40:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Developers/Spencer/Collections/' took 0.00s
-[2019.11.05-16.22.40:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Collections/' took 0.00s
-[2019.11.05-16.22.40:227][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.11.05-16.22.40:236][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2863 classes and 680 folders.
-[2019.11.05-16.22.40:244][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.05-16.22.40:279][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.05-16.22.40:285][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.11.05-16.22.40:298][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.05-16.22.40:301][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.05-16.22.40:305][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.05-16.22.40:366][  0]LogRenderer: Reallocating scene render targets to support 2380x1640 Format 10 NumSamples 1 (Frame:1).
-[2019.11.05-16.22.40:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.11.05-16.22.40:466][  0]LogLoad: (Engine Initialization) Total time: 7.21 seconds
-[2019.11.05-16.22.40:466][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.05-16.22.40:513][  0]LogAssetRegistry: Asset discovery search completed in 4.2026 seconds
-[2019.11.05-16.22.40:516][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.11.05-16.22.40:516][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
-[2019.11.05-16.22.40:518][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.05-16.22.40:527][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.05-16.22.41:507][101]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.05-16.22.57:673][968]LogSlate: Window 'Message Log' being destroyed
-[2019.11.05-16.22.57:676][968]LogSlate: Window 'Message Log' being destroyed
-[2019.11.05-16.23.00:071][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.05-16.23.57:864][705]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.23.58:635][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.23.59:246][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.23.59:752][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.24.00:285][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.24.00:886][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.11.05-16.24.01:360][ 92]LogEditorViewport: Clicking on Actor (LMB): AICharacter_C (AICharacter)
-[2019.11.05-16.24.03:383][322]LogSlate: Took 0.004438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.05-16.24.04:307][430]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.11.05-16.24.14:793][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.05-16.24.20:151][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
-[2019.11.05-16.24.20:321][186]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap85A6E8CA447B2CE87E1C11A159328579.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2019.11.05-16.24.22:522][186]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData0BD2656240931D03F5AED4B0C5AA34C6.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.11.05-16.24.23:721][318]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.11.05-16.24.26:693][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC0BEA85E-42DE-4F30-B5AC-58B06E0D6A3A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: request failed, libcurl error: 0 (No error)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x13d1c867f70 [can pipeline])
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.70.58.29) port 443 (#0))
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 3 (We are completely uploaded and fine)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 4 (Connection died, retrying a fresh connect)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 5 (necessary data rewind wasn't possible)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 6 (Closing connection 0)
-[2019.11.05-16.24.43:102][ 19]LogHttp: Warning: 0000013D916939C0: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2019.11.05-16.24.43:439][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC0BEA85E-42DE-4F30-B5AC-58B06E0D6A3A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.05-23.22.19:438][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.05-23.22.19:438][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.05-23.22.19:438][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.05-23.22.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:439][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.05-23.22.19:444][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.05-23.22.19:445][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.05-23.22.19:445][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.05-23.22.19:445][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.05-23.22.19:447][  0]LogHAL: Display: Platform has ~ 16 GB [17125662720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.05-23.22.19:447][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.05-23.22.19:447][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.05-23.22.19:447][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Scalability.ini]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.05-23.22.19:448][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Config/Windows/Engine.ini]
+[2019.11.05-23.22.19:448][  0]LogInit: Computer: DESKTOP-AV9LLO7
+[2019.11.05-23.22.19:448][  0]LogInit: User: Spencer
+[2019.11.05-23.22.19:448][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.05-23.22.19:449][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.05-23.22.19:449][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.05-23.22.19:449][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.05-23.22.19:449][  0]LogMemory: Process Physical Memory: 102.05 MB used, 102.05 MB peak
+[2019.11.05-23.22.19:449][  0]LogMemory: Process Virtual Memory: 100.10 MB used, 100.10 MB peak
+[2019.11.05-23.22.19:449][  0]LogMemory: Physical Memory: 4094.43 MB used,  12237.87 MB free, 16332.30 MB total
+[2019.11.05-23.22.19:449][  0]LogMemory: Virtual Memory: 4699.47 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.11.05-23.22.19:451][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.05-23.22.19:474][  0]LogInit: Using OS detected language (en-US).
+[2019.11.05-23.22.19:474][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.05-23.22.19:474][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.05-23.22.19:617][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.05-23.22.19:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.05-23.22.19:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.05-23.22.19:804][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.05-23.22.19:804][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.05-23.22.19:863][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.11.05-23.22.19:863][  0]LogD3D11RHI:       8079/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.05-23.22.19:865][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.05-23.22.19:865][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.05-23.22.19:865][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.05-23.22.19:872][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.05-23.22.19:872][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.05-23.22.19:872][  0]LogWindows: EnumDisplayDevices:
+[2019.11.05-23.22.19:872][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.11.05-23.22.19:872][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.05-23.22.19:873][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.05-23.22.19:873][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.11.05-23.22.19:873][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.05-23.22.19:873][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.11.05-23.22.19:873][  0]LogD3D11RHI:   Driver Version: 441.08 (internal:26.21.14.4108, unified:441.08)
+[2019.11.05-23.22.19:873][  0]LogD3D11RHI:      Driver Date: 10-22-2019
+[2019.11.05-23.22.19:873][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.11.05-23.22.19:916][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.05-23.22.19:927][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.05-23.22.20:165][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.05-23.22.20:174][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.05-23.22.20:183][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.05-23.22.20:192][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.05-23.22.20:202][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.05-23.22.20:211][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.05-23.22.20:221][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.05-23.22.20:232][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.05-23.22.20:237][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.05-23.22.20:268][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.05-23.22.20:269][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.05-23.22.20:270][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.05-23.22.20:287][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.05-23.22.20:287][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.05-23.22.20:300][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.05-23.22.20:300][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.05-23.22.20:307][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.05-23.22.20:314][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.05-23.22.20:321][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.05-23.22.20:328][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.05-23.22.20:350][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.05-23.22.20:350][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.05-23.22.20:350][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.05-23.22.20:361][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.05-23.22.20:420][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Intermediate/Shaders/WorkingDirectory/5876/).
+[2019.11.05-23.22.20:420][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Spencer/AppData/Local/Temp/UnrealShaderWorkingDir/81C2F36540AD2E8B49F84896FB8CBAFB/'.
+[2019.11.05-23.22.20:424][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.05-23.22.20:424][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.05-23.22.20:424][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.05-23.22.20:961][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.05-23.22.21:002][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.05-23.22.21:013][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.05-23.22.21:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.05-23.22.21:013][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.05-23.22.21:014][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spencer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.05-23.22.21:014][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.05-23.22.21:014][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.05-23.22.21:035][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.05-23.22.21:038][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.05-23.22.21:039][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.05-23.22.21:091][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.11.05-23.22.21:336][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.05-23.22.21:467][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.05-23.22.21:467][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.05-23.22.21:467][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.05-23.22.21:467][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.05-23.22.21:467][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.05-23.22.21:475][  0]LogNetVersion: FPS_AdaptiveAI_SP 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1732601486)
+[2019.11.05-23.22.21:844][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.054608 seconds
+[2019.11.05-23.22.21:851][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.05-23.22.21:851][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.05-23.22.21:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.05-23.22.22:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.05-23.22.22:616][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.05-23.22.22:666][  0]SourceControl: Source control is disabled
+[2019.11.05-23.22.22:666][  0]SourceControl: Source control is disabled
+[2019.11.05-23.22.22:668][  0]SourceControl: Source control is disabled
+[2019.11.05-23.22.22:668][  0]SourceControl: Source control is disabled
+[2019.11.05-23.22.22:749][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.05-23.22.22:927][  0]LogOcInput: OculusInput pre-init called
+[2019.11.05-23.22.22:932][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.05-23.22.22:932][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.05-23.22.23:001][  0]LogEngine: Initializing Engine...
+[2019.11.05-23.22.23:002][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.05-23.22.23:003][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.05-23.22.23:199][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.05-23.22.23:218][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.05-23.22.23:261][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.22.23:412][  0]LogInit: FAudioDevice initialized.
+[2019.11.05-23.22.23:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.05-23.22.23:486][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Spencer/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.05-23.22.23:491][  0]LogInit: Texture streaming: Enabled
+[2019.11.05-23.22.23:513][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.05-23.22.23:584][  0]LogInit: Transaction tracking system initialized
+[2019.11.05-23.22.23:627][  0]BlueprintLog: New page: Editor Load
+[2019.11.05-23.22.23:725][  0]LocalizationService: Localization service is disabled
+[2019.11.05-23.22.23:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/' took 0.01s
+[2019.11.05-23.22.23:949][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.05-23.22.23:949][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.05-23.22.24:127][  0]SourceControl: Source control is disabled
+[2019.11.05-23.22.24:127][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.05-23.22.24:128][  0]LightingResults: New page: Lighting Build
+[2019.11.05-23.22.24:131][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.22.24:131][  0]MapCheck: New page: Map Check
+[2019.11.05-23.22.24:131][  0]LightingResults: New page: Lighting Build
+[2019.11.05-23.22.24:159][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.11.05-23.22.25:113][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.22.25:127][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.05-23.22.25:161][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2019.11.05-23.22.25:161][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.05-23.22.25:161][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2019.11.05-23.22.25:161][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.034
+[2019.11.05-23.22.25:287][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.25:294][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.25:300][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.25:306][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.25:323][  0]LogCollectionManager: Loaded 0 collections in 0.002851 seconds
+[2019.11.05-23.22.25:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Collections/' took 0.00s
+[2019.11.05-23.22.25:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Developers/Spencer/Collections/' took 0.00s
+[2019.11.05-23.22.25:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/Collections/' took 0.00s
+[2019.11.05-23.22.25:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.11.05-23.22.25:352][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2863 classes and 680 folders.
+[2019.11.05-23.22.25:365][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.05-23.22.25:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.05-23.22.25:619][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.05-23.22.25:664][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.05-23.22.25:666][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.05-23.22.25:677][  0]LogSlate: Took 0.005437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.05-23.22.25:781][  0]LogRenderer: Reallocating scene render targets to support 2380x1640 Format 10 NumSamples 1 (Frame:1).
+[2019.11.05-23.22.25:891][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.05-23.22.25:891][  0]LogLoad: (Engine Initialization) Total time: 7.81 seconds
+[2019.11.05-23.22.25:891][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.05-23.22.25:948][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.05-23.22.26:057][  2]LogAssetRegistry: Asset discovery search completed in 4.9679 seconds
+[2019.11.05-23.22.26:060][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.11.05-23.22.26:060][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.11.05-23.22.31:317][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.22.31:384][633]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.22.31:401][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.22.31:401][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.22.31:402][633]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:22:31 PM)
+[2019.11.05-23.22.31:403][633]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.05-23.22.31:404][633]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.22.31:414][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009537s)
+[2019.11.05-23.22.31:414][633]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.22.31:415][633]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2019.11.05-23.22.31:415][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010583s)
+[2019.11.05-23.22.31:444][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.11.05-23.22.31:486][633]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.22.31:623][633]LogInit: FAudioDevice initialized.
+[2019.11.05-23.22.31:631][633]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.22.31:634][633]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.22.31
+[2019.11.05-23.22.31:638][633]LogWorld: Bringing up level for play took: 0.005826
+[2019.11.05-23.22.31:638][633]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2019.11.05-23.22.31:648][633]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.11.05-23.22.31:649][633]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.215
+[2019.11.05-23.22.31:649][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.22.38:511][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.22.38:516][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.38:516][452]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.22.38:516][452]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.22.38:524][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.22.38:525][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.22.38:556][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.22.38:559][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.11.05-23.22.38:613][454]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.11.05-23.22.45:231][247]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.22.53:518][100]LogSlate: Took 0.005003 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.05-23.22.53:524][100]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.11.05-23.22.53:810][100]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.11.05-23.22.54:684][100]LogSlate: Took 0.003841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.05-23.22.54:831][101]LogSlate: Took 0.004239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.05-23.23.18:013][587]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter017116824755087F6B0FDA9C7E9FEAF0.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.23.18:596][653]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.23.18:823][653]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.11.05-23.23.26:073][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2019.11.05-23.23.26:292][487]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapF2997C0E42E2959349A211BCE5E17742.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.23.28:429][487]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData85C3CDF544B107120EDE2EB768494977.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.23.29:488][590]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile
+[2019.11.05-23.24.02:660][386]LogSlate: Window 'FirstPersonProjectile' being destroyed
+[2019.11.05-23.25.13:309][540]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.25.13:533][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.05-23.25.14:270][622]LogRenderer: Reallocating scene render targets to support 2380x2020 Format 10 NumSamples 1 (Frame:1).
+[2019.11.05-23.25.19:871][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.25.24:627][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.25.48:030][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.25.55:077][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.26.03:849][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.26.16:533][534]LogTexture: Display: Building textures: T_9mm_ALB (AutoDXT, 256X256)
+[2019.11.05-23.26.16:533][534]LogTexture: Display: Building textures: T_9mm_NRM (BC5, 256X256)
+[2019.11.05-23.26.16:533][534]LogTexture: Display: Building textures: T_9mm_M_MSK (AutoDXT, 256X256)
+[2019.11.05-23.26.21:869][973]LogTexture: Display: Building textures: T_9x18_NRM (BC5, 256X256)
+[2019.11.05-23.26.21:869][973]LogTexture: Display: Building textures: T_9x18_ALB (AutoDXT, 256X256)
+[2019.11.05-23.26.21:869][973]LogTexture: Display: Building textures: T_9x18_M_MSK (AutoDXT, 256X256)
+[2019.11.05-23.26.25:430][315]LogTexture: Display: Building textures: T_12Gauge_ALB (DXT1, 256X256)
+[2019.11.05-23.26.25:430][315]LogTexture: Display: Building textures: T_12Gauge_M_MSK (AutoDXT, 256X256)
+[2019.11.05-23.26.25:430][315]LogTexture: Display: Building textures: T_12Gauge_NRM (BC5, 256X256)
+[2019.11.05-23.26.58:379][799]LogTexture: Display: Building textures: T_Scope_25x56_NRM (BC5, 2048X2048)
+[2019.11.05-23.26.58:379][799]LogTexture: Display: Building textures: T_Scope_25x56_ALB (AutoDXT, 2048X2048)
+[2019.11.05-23.26.58:379][799]LogTexture: Display: Building textures: T_Scope_25x56_M_MSK (AutoDXT, 2048X2048)
+[2019.11.05-23.28.01:038][879]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile18FB46BD44F3431AB492FD9CFBDB13C3.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.28.01:576][942]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.28.01:853][942]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2019.11.05-23.28.15:982][616]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile404F707448B922B2D3DE93ABDDB212F6.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.28.16:311][654]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.28.16:557][654]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2019.11.05-23.29.13:641][414]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.29.13:891][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2019.11.05-23.29.14:378][461]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile2187AB9A41899F4A3AF2E1B673C9C5C1.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.29.16:383][694]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile9D88F45F41AF3901342B0CA729055244.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.29.17:343][808]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.29.17:588][808]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2019.11.05-23.29.19:566][ 30]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectileDF0C98B94D2A588D9CB2D6938FA074DA.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.29.20:059][ 88]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.29.20:303][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.11.05-23.29.23:609][466]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2019.11.05-23.29.23:864][466]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap907A30694A0D1CF3615C14BE67FD32DD.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.29.25:361][466]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltDataCD2DC9B348B16CC34384A49FA3B6213E.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.29.26:016][541]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.29.26:036][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.29.26:036][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.29.26:036][541]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:29:26 PM)
+[2019.11.05-23.29.26:036][541]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.29.26:046][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009427s)
+[2019.11.05-23.29.26:046][541]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.29.26:046][541]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.11.05-23.29.26:046][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010317s)
+[2019.11.05-23.29.26:083][541]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.11.05-23.29.26:122][541]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.29.26:262][541]LogInit: FAudioDevice initialized.
+[2019.11.05-23.29.26:274][541]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.29.26:276][541]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.29.26
+[2019.11.05-23.29.26:276][541]LogWorld: Bringing up level for play took: 0.002280
+[2019.11.05-23.29.26:277][541]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2019.11.05-23.29.26:278][541]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.845
+[2019.11.05-23.29.26:278][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.29.26:753][596]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1368.011 Y=37.881 Z=167.075] for [FirstPersonProjectile_C]
+[2019.11.05-23.29.27:662][705]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1356.560 Y=-22.453 Z=166.499] for [FirstPersonProjectile_C]
+[2019.11.05-23.29.32:512][287]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-877.048 Y=-444.997 Z=167.252] for [FirstPersonProjectile_C]
+[2019.11.05-23.29.33:179][367]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-813.057 Y=-505.709 Z=166.144] for [FirstPersonProjectile_C]
+[2019.11.05-23.29.33:853][448]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-814.942 Y=-497.395 Z=169.205] for [FirstPersonProjectile_C]
+[2019.11.05-23.29.34:920][576]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.29.34:920][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.29.34:920][576]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.29.34:920][576]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.29.34:932][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.29.34:933][576]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.29.34:973][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.29.34:978][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2019.11.05-23.29.35:040][578]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.05-23.29.38:971][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.29.49:405][241]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPerson/Character/Rifle.Rifle
+[2019.11.05-23.30.17:538][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.31.23:201][347]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile33B8FB86434B4B6393CEF3AB8B31DAFF.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.31.23:588][392]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.31.23:848][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.11.05-23.31.35:108][622]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.SK_Mannequin_Arms_Skeleton
+[2019.11.05-23.31.35:122][622]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.05-23.31.35:331][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.05-23.31.35:339][622]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.11.05-23.31.35:381][622]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.05-23.31.38:545][935]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/FirstPerson/Animations/FirstPersonFire_Montage.FirstPersonFire_Montage
+[2019.11.05-23.31.38:562][935]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.05-23.31.38:588][935]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.05-23.31.39:152][935]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.05-23.31.47:175][895]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP
+[2019.11.05-23.31.47:187][895]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.05-23.31.47:533][895]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.05-23.31.47:796][895]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.05-23.31.50:557][225]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.SK_Mannequin_Arms_PhysicsAsset
+[2019.11.05-23.31.50:578][225]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
+[2019.11.05-23.31.50:589][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.11.05-23.31.52:770][412]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2019.11.05-23.31.52:781][412]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.05-23.31.52:806][412]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.05-23.32.02:412][515]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.02:421][515]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.02:546][515]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.04:507][735]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.06:638][968]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.10:444][388]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.16:059][ 44]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.33:681][146]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectileBB28AFED40EEF4AE6B4A658E296F69CF.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.32.34:910][291]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.32.35:419][291]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2019.11.05-23.32.39:616][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.05-23.32.39:616][788]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.32.44:977][392]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterAF3ABEE34292F372C9405E878AF0B235.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.33.35:259][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.34.09:164][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.05-23.34.17:268][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.34.17:319][ 11]Cmd: MODE GRID=0
+[2019.11.05-23.34.33:110][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.35.37:740][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.35.37:782][631]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.35.38:271][631]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2019.11.05-23.35.39:015][703]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter95F33ABD4916018794495F80D4DB099B.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.36.15:886][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.36.16:010][132]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterD118DCC84332F991C20D7B92C4B57707.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.36.17:573][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.36.18:778][452]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.36.18:795][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.36.18:795][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.36.18:795][452]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:36:18 PM)
+[2019.11.05-23.36.18:795][452]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.36.18:805][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009453s)
+[2019.11.05-23.36.18:806][452]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.36.18:806][452]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2019.11.05-23.36.18:806][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010401s)
+[2019.11.05-23.36.18:841][452]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.11.05-23.36.18:883][452]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.36.19:027][452]LogInit: FAudioDevice initialized.
+[2019.11.05-23.36.19:031][452]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.36.19:033][452]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.36.19
+[2019.11.05-23.36.19:034][452]LogWorld: Bringing up level for play took: 0.002094
+[2019.11.05-23.36.19:034][452]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2019.11.05-23.36.19:035][452]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.398
+[2019.11.05-23.36.19:035][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.36.30:005][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.36.30:005][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.36.30:005][767]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.36.30:005][767]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.36.30:017][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.36.30:017][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.36.30:057][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.36.30:061][767]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.05-23.36.30:108][768]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.11.05-23.36.37:923][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.36.47:017][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.36.55:338][746]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter95198F39485AE1B20BB537A023458467.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.36.56:351][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.36.56:426][875]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.36.56:674][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.11.05-23.37.19:882][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5EA72FA9-406F-FAA4-3550-0183215D400F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: request failed, libcurl error: 0 (No error)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x201c7cd7f70 [can pipeline])
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.194.74.77) port 443 (#4))
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 6 (Closing connection 4)
+[2019.11.05-23.37.25:936][357]LogHttp: Warning: 00000202080D7600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.11.05-23.37.25:944][358]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5EA72FA9-406F-FAA4-3550-0183215D400F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.11.05-23.38.29:647][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.38.29:769][952]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2019.11.05-23.38.30:031][952]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMapB537F35249107CAB70FD729CA2796144.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.38.31:489][952]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData7BC2B7F04128EE108C86A38FBD4BFBDB.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.38.35:234][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.11.05-23.38.51:118][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.38.51:250][288]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2019.11.05-23.38.51:501][288]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap2135299243A573B435F04B8CD5E1B115.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.38.52:947][288]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData866412A948031ADDB1927092E34AD730.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.38.58:457][923]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.38.58:474][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.38.58:474][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.38.58:474][923]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:38:58 PM)
+[2019.11.05-23.38.58:474][923]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.38.58:484][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009833s)
+[2019.11.05-23.38.58:485][923]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.38.58:485][923]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2019.11.05-23.38.58:485][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010730s)
+[2019.11.05-23.38.58:520][923]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.05-23.38.58:560][923]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.38.58:707][923]LogInit: FAudioDevice initialized.
+[2019.11.05-23.38.58:716][923]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.38.58:719][923]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.38.58
+[2019.11.05-23.38.58:719][923]LogWorld: Bringing up level for play took: 0.002107
+[2019.11.05-23.38.58:719][923]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2019.11.05-23.38.58:721][923]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.712
+[2019.11.05-23.38.58:721][923]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.39.09:726][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.39.09:726][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.39.09:726][242]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.39.09:726][242]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.39.09:735][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.39.09:735][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.39.09:773][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.39.09:777][242]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2019.11.05-23.39.09:838][244]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.11.05-23.39.11:613][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.39.19:841][394]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile
+[2019.11.05-23.40.01:261][309]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile8803884B48A70A8E25A50BAE2B8BEB9F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.40.01:645][354]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.40.01:900][354]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2019.11.05-23.40.17:271][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.40.36:941][481]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectileC6B99EC14F4BFEF068B5E5A0A5E7A038.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.05-23.40.37:463][542]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.05-23.40.37:748][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2019.11.05-23.40.39:362][721]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.11.05-23.40.40:377][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.40.40:435][843]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.40.40:457][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.40.40:457][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.40.40:457][843]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:40:40 PM)
+[2019.11.05-23.40.40:457][843]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.40.40:466][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009648s)
+[2019.11.05-23.40.40:467][843]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.40.40:467][843]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2019.11.05-23.40.40:467][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010554s)
+[2019.11.05-23.40.40:507][843]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.11.05-23.40.40:547][843]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.40.40:680][843]LogInit: FAudioDevice initialized.
+[2019.11.05-23.40.40:690][843]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.40.40:692][843]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.40.40
+[2019.11.05-23.40.40:693][843]LogWorld: Bringing up level for play took: 0.002142
+[2019.11.05-23.40.40:693][843]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2019.11.05-23.40.40:695][843]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.739
+[2019.11.05-23.40.40:695][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.40.47:949][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.40.47:949][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.40.47:949][712]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.40.47:949][712]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.40.47:962][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.40.47:962][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.40.48:003][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.40.48:007][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.05-23.40.48:070][714]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.11.05-23.40.49:396][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.41.35:671][669]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterE8F52B00466A07C740629F8430153A28.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.41.36:137][713]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.41.36:401][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.11.05-23.41.39:094][991]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.11.05-23.41.39:354][991]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap0E0D05DC4B4300215A5C698FE8CC3B13.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.41.40:816][991]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData234D559641FF3E97AD1F8CAEC3815647.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.41.41:410][ 59]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.41.41:431][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.41.41:431][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.41.41:431][ 59]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:41:41 PM)
+[2019.11.05-23.41.41:431][ 59]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.41.41:441][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010020s)
+[2019.11.05-23.41.41:442][ 59]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.41.41:442][ 59]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2019.11.05-23.41.41:442][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010924s)
+[2019.11.05-23.41.41:481][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.11.05-23.41.41:520][ 59]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.41.41:654][ 59]LogInit: FAudioDevice initialized.
+[2019.11.05-23.41.41:661][ 59]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.41.41:664][ 59]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.41.41
+[2019.11.05-23.41.41:664][ 59]LogWorld: Bringing up level for play took: 0.002225
+[2019.11.05-23.41.41:664][ 59]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2019.11.05-23.41.41:666][ 59]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.233
+[2019.11.05-23.41.41:666][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.41.56:547][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.41.56:547][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.41.56:547][839]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.41.56:547][839]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.41.56:561][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.41.56:561][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.41.56:600][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.41.56:605][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.11.05-23.41.56:667][841]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.05-23.41.57:484][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.05-23.44.33:427][213]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter04CA485A4686E19CBFCEED9D65AF00F7.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.44.34:091][289]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.44.34:356][289]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.11.05-23.45.02:981][674]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter9A2FCB534E286736960200A62E200A4A.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.05-23.45.03:325][711]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.05-23.45.03:592][711]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2019.11.05-23.45.09:812][433]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.11.05-23.45.10:075][433]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap7171ACC642217E744B6CA7A085D1A942.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.05-23.45.11:543][433]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData5397C93A4E8DE2BF5054E39B858E1032.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.05-23.45.19:237][322]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.05-23.45.19:257][322]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.45.19:258][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.05-23.45.19:258][322]PIE: New page: PIE session: FirstPersonExampleMap (Nov 5, 2019, 1:45:19 PM)
+[2019.11.05-23.45.19:258][322]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.45.19:267][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009676s)
+[2019.11.05-23.45.19:268][322]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.05-23.45.19:268][322]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2019.11.05-23.45.19:268][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010554s)
+[2019.11.05-23.45.19:306][322]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.11.05-23.45.19:345][322]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.05-23.45.19:484][322]LogInit: FAudioDevice initialized.
+[2019.11.05-23.45.19:493][322]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.05-23.45.19:495][322]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.05-18.45.19
+[2019.11.05-23.45.19:496][322]LogWorld: Bringing up level for play took: 0.002102
+[2019.11.05-23.45.19:496][322]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2019.11.05-23.45.19:498][322]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.064
+[2019.11.05-23.45.19:498][322]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.45.51:838][201]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.45.51:838][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.45.51:838][201]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.05-23.45.51:838][201]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.05-23.45.51:854][201]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.05-23.45.51:855][201]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.05-23.45.51:896][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.05-23.45.51:901][201]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.05-23.45.51:964][203]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.11.05-23.45.57:114][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
