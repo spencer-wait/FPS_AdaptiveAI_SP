@@ -2618,3 +2618,292 @@ Purging the undo buffer...
 [2019.11.08-01.37.05:580][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
 [2019.11.08-01.37.05:859][750]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap35033D4141950899766A5A950E163F49.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.11.08-01.37.07:337][750]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData78D99AF2423D0399916B6C9C94719D4A.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.08-02.19.00:360][954]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.08-02.19.17:939][ 34]MapCheck: New page: Map Check
+[2019.11.08-02.19.17:952][ 34]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.08-02.19.17:952][ 34]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.08-02.19.17:963][ 34]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=false
+[2019.11.08-02.19.18:027][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.11.08-02.19.18:060][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:068][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:077][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2019.11.08-02.19.18:077][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2019.11.08-02.19.18:077][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2019.11.08-02.19.18:077][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2019.11.08-02.19.18:077][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2019.11.08-02.19.18:094][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:101][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:111][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:125][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 42
+[2019.11.08-02.19.18:125][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 41
+[2019.11.08-02.19.18:125][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 40
+[2019.11.08-02.19.18:125][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 39
+[2019.11.08-02.19.18:125][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:135][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.18:143][ 34]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 46
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 45
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 44
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 43
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 42
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 41
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 40
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 39
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 38
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 37
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 36
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 35
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 33
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 31
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 30
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 29
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 28
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 27
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 25
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 22
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 18
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 16
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 14
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 12
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2019.11.08-02.19.20:038][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2019.11.08-02.19.20:039][ 34]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2019.11.08-02.19.20:039][ 34]TextureStreamingBuild: Display: Compiling optional shaders took 1.982 seconds.
+[2019.11.08-02.19.20:054][ 34]LogLevel: Display: Export Material TexCoord Scales took 0.016 seconds.
+[2019.11.08-02.19.20:087][ 34]TextureStreamingBuild: Display: Build Texture Streaming took 0.032 seconds.
+[2019.11.08-02.19.20:126][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.08-02.19.20:126][ 34]LightingResults: New page: Lighting Build - Nov 7, 2019, 4:19:20 PM
+[2019.11.08-02.19.20:136][ 34]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.08-02.19.20:147][ 34]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.08-02.19.20:147][ 34]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.08-02.19.20:148][ 34]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.08-02.19.20:148][ 34]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2360
+[2019.11.08-02.19.38:662][ 34]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.08-02.19.38:662][ 34]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.08-02.19.38:662][ 34]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.08-02.19.38:662][ 34]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.08-02.19.38:662][ 34]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.08-02.19.38:828][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.11.08-02.20.52:837][ 34]Job is a success!
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:      BrickData 340x5x5 = 0.3Mb
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:          0: 1.5% covering 100.0% of volume
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:          1: 5.9% covering 6.3% of volume
+[2019.11.08-02.20.52:925][ 34]LogVolumetricLightmapImport:          2: 92.6% covering 1.5% of volume
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:533][ 34]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 2048X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 2048X2048)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: SkyOcclusion0_11 (AutoDXT, 64X32)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 64X64)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 64X64)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_80 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_82 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_81 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_83 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_87 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_88 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_85 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_89 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_97 (G8, 64X128)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_98 (G8, 512X64)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_99 (G8, 32X32)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_86 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_84 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_92 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_93 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_90 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_94 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_91 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_95 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogTexture: Display: Building textures: ShadowMapTexture2D_96 (G8, 1024X1024)
+[2019.11.08-02.20.57:534][ 34]LogStaticLightingSystem: FirstPersonExampleMap_BuiltData storing lightmap data for 27 meshes in 20 LightmapResourceClusters (1.4 Meshes per cluster).
+[2019.11.08-02.20.57:596][ 34]Lightmass on DESKTOP-AV9LLO7: 1:18 min total, 115 ms importing, 20 ms setup, 10.5 sec photons, 1:07 min processing, 0 ms extra exporting [117/117 mappings]. Threads: 12:23 min total, 7:36 min processing.
+[2019.11.08-02.20.57:596][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2019.11.08-02.20.57:599][ 34]LogStaticLightingSystem: Illumination: 1:37 min (3.24 sec encoding lightmaps, 788 ms encoding shadowmaps)
+[2019.11.08-02.20.57:599][ 34]LogStaticLightingSystem: Lightmap texture memory:  96.2 MB (96.0 MB streaming, 0.2 MB non-streaming), 22 textures
+[2019.11.08-02.20.57:599][ 34]LogStaticLightingSystem: Shadowmap texture memory: 22.7 MB (22.7 MB streaming, 0.0 MB non-streaming), 20 textures
+[2019.11.08-02.20.57:728][ 34]DumpUnbuiltLightIteractions
+[2019.11.08-02.20.57:729][ 34]Lights with unbuilt interactions: 0
+[2019.11.08-02.20.57:729][ 34]
+[2019.11.08-02.20.57:729][ 34]Primitives with unbuilt interactions: 0
+[2019.11.08-02.20.57:748][ 34]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.08-02.20.57:748][ 34]MapCheck: New page: FirstPersonExampleMap - Nov 7, 2019, 4:20:57 PM
+[2019.11.08-02.20.57:749][ 34]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.623ms to complete.
+[2019.11.08-02.20.57:751][ 34]LogEditorBuildUtils: Build time 1:39
+[2019.11.08-02.20.57:775][ 35]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.08-02.20.57:776][ 35]MapCheck: New page: FirstPersonExampleMap - Nov 7, 2019, 4:20:57 PM
+[2019.11.08-02.20.57:776][ 35]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.631ms to complete.
+[2019.11.08-02.20.57:873][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.08-02.20.58:179][ 35]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto4E6DA7E5A4F0C75EB9FC7DC89695BEF15.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2019.11.08-02.20.58:186][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.361
+[2019.11.08-02.20.58:186][ 35]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.361
+[2019.11.08-02.26.58:613][512]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.08-02.27.02:768][512]LogSlate: Window 'Save Content' being destroyed
+[2019.11.08-02.27.02:823][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2019.11.08-02.27.03:104][512]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap66C677A84F98B5DB63BF4D898E01FA6F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.08-02.27.03:146][512]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.364
+[2019.11.08-02.27.04:618][512]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData241367F24F46C837A62791B41FA4C9A0.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.08-02.28.24:858][296]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.11.08-02.28.27:622][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.28.30:607][828]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.11.08-02.28.44:663][329]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.08-02.28.44:743][329]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.08-02.29.04:460][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.29.42:406][214]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.08-02.29.42:486][214]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.08-02.29.53:146][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.30.07:589][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.30.07:664][202]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.08-02.30.08:071][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.11.08-02.30.08:684][259]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter4E429B58432FA42E1D51F6A1292B307B.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.08-02.30.23:137][643]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.23:137][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-02.30.23:137][643]PIE: New page: PIE session: FirstPersonExampleMap (Nov 7, 2019, 4:30:23 PM)
+[2019.11.08-02.30.23:138][643]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.30.23:148][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010078s)
+[2019.11.08-02.30.23:148][643]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.08-02.30.23:149][643]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2019.11.08-02.30.23:149][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011166s)
+[2019.11.08-02.30.23:193][643]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2019.11.08-02.30.23:242][643]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.08-02.30.23:380][643]LogInit: FAudioDevice initialized.
+[2019.11.08-02.30.23:392][643]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.08-02.30.23:394][643]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.07-21.30.23
+[2019.11.08-02.30.23:394][643]LogWorld: Bringing up level for play took: 0.002222
+[2019.11.08-02.30.23:395][643]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2019.11.08-02.30.23:396][643]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.036
+[2019.11.08-02.30.23:397][643]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.31:424][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.31:424][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.30.31:424][598]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.30.31:424][598]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.08-02.30.31:441][598]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-02.30.31:441][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.31:484][598]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.30.31:488][598]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.08-02.30.31:557][600]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2019.11.08-02.30.33:161][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.30.42:175][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.30.42:243][865]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.08-02.30.42:538][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2019.11.08-02.30.43:029][910]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter38840970440E57D9F03FCBAADB5488D2.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.08-02.30.44:787][106]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-02.30.44:811][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.44:811][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-02.30.44:811][106]PIE: New page: PIE session: FirstPersonExampleMap (Nov 7, 2019, 4:30:44 PM)
+[2019.11.08-02.30.44:811][106]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.30.44:822][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010626s)
+[2019.11.08-02.30.44:823][106]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.08-02.30.44:823][106]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2019.11.08-02.30.44:823][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011536s)
+[2019.11.08-02.30.44:868][106]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.11.08-02.30.44:917][106]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.08-02.30.45:055][106]LogInit: FAudioDevice initialized.
+[2019.11.08-02.30.45:061][106]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.08-02.30.45:063][106]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.07-21.30.45
+[2019.11.08-02.30.45:064][106]LogWorld: Bringing up level for play took: 0.002486
+[2019.11.08-02.30.45:064][106]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2019.11.08-02.30.45:066][106]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.366
+[2019.11.08-02.30.45:066][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.30.51:893][923]LogAnimMontage: Warning: Playing a Montage (TopDownUse_Montage) for the wrong Skeleton (swat_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2019.11.08-02.31.20:551][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.31.20:551][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.31.20:551][361]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.31.20:552][361]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.08-02.31.20:566][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-02.31.20:567][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.31.20:614][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.31.20:618][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.11.08-02.31.20:650][362]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2019.11.08-02.31.22:610][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.31.39:170][481]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile
+[2019.11.08-02.31.46:414][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.32.44:302][357]BlueprintLog: New page: Compile FirstPersonProjectile
+[2019.11.08-02.32.44:577][357]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2019.11.08-02.32.45:055][400]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonProjectile848E41C74CB13650843D57BC97BD5015.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2019.11.08-02.33.01:415][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.33.01:494][347]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2019.11.08-02.33.12:632][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.33.45:472][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.08-02.33.45:530][524]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.11.08-02.33.45:885][524]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2019.11.08-02.33.46:106][534]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter90442F634EC67A3D66C360BB51F3E353.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.11.08-02.33.48:499][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.11.08-02.33.48:746][792]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap939B1EAB461D6D4AB90D84AD0C24AF5D.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.11.08-02.33.50:294][792]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData626D7BF746F2326A1996B1910EEDD8C0.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.11.08-02.33.50:804][850]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.08-02.33.50:830][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.33.50:830][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.08-02.33.50:831][850]PIE: New page: PIE session: FirstPersonExampleMap (Nov 7, 2019, 4:33:50 PM)
+[2019.11.08-02.33.50:831][850]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.33.50:841][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009978s)
+[2019.11.08-02.33.50:841][850]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.11.08-02.33.50:842][850]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2019.11.08-02.33.50:842][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010958s)
+[2019.11.08-02.33.50:877][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.11.08-02.33.50:925][850]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.11.08-02.33.51:080][850]LogInit: FAudioDevice initialized.
+[2019.11.08-02.33.51:088][850]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.11.08-02.33.51:090][850]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.11.07-21.33.51
+[2019.11.08-02.33.51:091][850]LogWorld: Bringing up level for play took: 0.002351
+[2019.11.08-02.33.51:091][850]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2019.11.08-02.33.51:093][850]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.34
+[2019.11.08-02.33.51:093][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.33.57:774][649]LogAnimMontage: Warning: Playing a Montage (TopDownUse_Montage) for the wrong Skeleton (swat_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2019.11.08-02.34.31:785][726]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.34.31:786][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.34.31:786][726]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.11.08-02.34.31:786][726]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.08-02.34.31:797][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.08-02.34.31:797][726]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.11.08-02.34.31:836][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.08-02.34.31:840][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.08-02.34.31:919][728]LogPlayLevel: Display: Destroying online subsystem :Context_67
