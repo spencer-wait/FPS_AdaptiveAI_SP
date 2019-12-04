@@ -1598,3 +1598,207 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.04-17.25.17:510][546]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
 [2019.12.04-17.25.17:751][546]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap7031A71142DA4130D124D093C4343CFB.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2019.12.04-17.25.19:385][546]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData9E108ABA49FE7F31F3A868801D065F34.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.04-21.49.12:896][971]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2019.12.04-21.49.13:152][971]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto05440EC3744A88C8E835EE08DECC97CB5.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto0.umap'
+[2019.12.04-21.49.13:156][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.298
+[2019.12.04-21.49.13:156][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.298
+[2019.12.04-21.49.13:157][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI_BP/AI_Blueprints/AICharacter] ([1] browsable assets)...
+[2019.12.04-21.49.13:166][971]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI_BP/AI_Blueprints/AICharacter.AICharacter]
+[2019.12.04-21.49.13:166][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI_BP/AI_Blueprints/AICharacter]
+[2019.12.04-21.49.13:230][971]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacter_Auto0988867424F4AC76D202E83A3D8BBF1BD.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/AI_BP/AI_Blueprints/AICharacter_Auto0.uasset'
+[2019.12.04-21.49.13:231][971]LogFileHelpers: Auto-saving content packages took 0.074
+[2019.12.04-22.13.42:688][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-22.13.44:015][ 69]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacter2F7740514C145E40AF9E27BB226F4E78.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/AICharacter.uasset'
+[2019.12.04-22.13.44:440][118]BlueprintLog: New page: Compile AICharacter
+[2019.12.04-22.13.44:739][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.12.04-22.14.09:171][681]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.04-22.14.09:193][681]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.14.09:193][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.04-22.14.09:194][681]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2019, 12:14:09 PM)
+[2019.12.04-22.14.09:194][681]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.14.09:216][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021594s)
+[2019.12.04-22.14.09:217][681]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.04-22.14.09:217][681]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2019.12.04-22.14.09:217][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022698s)
+[2019.12.04-22.14.09:259][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.12.04-22.14.09:306][681]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.04-22.14.09:447][681]LogInit: FAudioDevice initialized.
+[2019.12.04-22.14.09:456][681]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.04-22.14.09:459][681]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.04-17.14.09
+[2019.12.04-22.14.09:460][681]LogWorld: Bringing up level for play took: 0.002700
+[2019.12.04-22.14.09:460][681]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2019.12.04-22.14.09:464][681]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.545
+[2019.12.04-22.14.09:464][681]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.14.42:840][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.14.42:840][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.14.42:840][678]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.14.42:840][678]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.04-22.14.42:851][678]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.04-22.14.42:852][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.14.42:899][678]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.14.42:903][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.12.04-22.14.42:962][680]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.12.04-22.14.48:812][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-22.17.06:087][ 91]BlueprintLog: New page: Compile AICharacter
+[2019.12.04-22.17.06:322][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.12.04-22.17.06:820][132]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICharacterB78F793A47B4778312134F842F156FCD.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/AICharacter.uasset'
+[2019.12.04-22.17.09:089][392]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2019.12.04-22.17.13:292][877]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI_BP/AI_Blueprints/BT_AIChar.BT_AIChar
+[2019.12.04-22.17.16:234][208]LogSlate: Window 'BT_AIChar' being destroyed
+[2019.12.04-22.18.31:853][965]LogBehaviorTree: Warning: Blackboard Based Condition[1]> Failed to find key 'SelfActor' in BB asset BlackboardData /Game/AI_BP/AI_Blueprints/BB_AIChar.BB_AIChar. BB Key Selector will be set to 'Invalid'
+[2019.12.04-22.18.35:508][403]LogBehaviorTree: Warning: Blackboard Based Condition[1]> Failed to find key 'SelfActor' in BB asset BlackboardData /Game/AI_BP/AI_Blueprints/BB_AIChar.BB_AIChar. BB Key Selector will be set to 'Invalid'
+[2019.12.04-22.18.37:520][644]LogBehaviorTree: Warning: Blackboard Based Condition[1]> Failed to find key 'SelfActor' in BB asset BlackboardData /Game/AI_BP/AI_Blueprints/BB_AIChar.BB_AIChar. BB Key Selector will be set to 'Invalid'
+[2019.12.04-22.19.13:068][542]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.12.04-22.19.13:316][542]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto123A3B188453F3D3D9F5728AF29379EA1.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2019.12.04-22.19.13:323][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.282
+[2019.12.04-22.19.13:323][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2019.12.04-22.19.13:324][542]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI_BP/AI_Blueprints/BT_AIChar] ([1] browsable assets)...
+[2019.12.04-22.19.13:324][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI_BP/AI_Blueprints/BT_AIChar]
+[2019.12.04-22.19.13:342][542]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_AIChar_Auto123E5A5414E3459B5D552D182E735FFF2.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/AI_BP/AI_Blueprints/BT_AIChar_Auto1.uasset'
+[2019.12.04-22.19.13:343][542]LogFileHelpers: Auto-saving content packages took 0.019
+[2019.12.04-22.20.03:515][508]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_AIChar8376AAED4D33BB139A791193F72D14F2.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/BT_AIChar.uasset'
+[2019.12.04-22.20.04:731][652]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.04-22.20.42:652][ 28]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.04-22.20.42:652][ 28]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2019.12.04-22.20.42:965][ 28]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.
+[2019.12.04-22.20.56:786][681]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BTTask_BlueprintBase_NewEB53378D4FFEFA3B89DDBEB4F3790A05.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.uasset'
+[2019.12.04-22.20.56:792][681]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.
+[2019.12.04-22.21.07:816][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.12.04-22.21.07:821][994]LogMetaData: Removing '/Game/AI_BP/AI_Blueprints/Attack.SKEL_Attack_C' ref from Metadata '/Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.12.04-22.21.07:821][994]LogMetaData: Removing '/Game/AI_BP/AI_Blueprints/Attack.Attack_C' ref from Metadata '/Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.12.04-22.21.07:837][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI_Blueprints/Attack" FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset" SILENT=true
+[2019.12.04-22.21.07:844][994]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Attack303E91954957E432FE850EA4F865C56F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset'
+[2019.12.04-22.21.07:996][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.12.04-22.21.08:040][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.12.04-22.21.08:074][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.12.04-22.21.08:107][994]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI_BP/AI_Blueprints/Attack.
+[2019.12.04-22.22.34:146][677]Cmd: TRANSACTION UNDO
+[2019.12.04-22.22.34:146][677]LogEditorTransaction: Undo Move Node
+[2019.12.04-22.23.45:809][149]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.04-22.23.48:023][412]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.04-22.23.48:023][412]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2019.12.04-22.23.48:367][412]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.
+[2019.12.04-22.23.51:164][744]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BTTask_BlueprintBase_New89146D1D41E2D905E7AAF49C11477EDD.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.uasset'
+[2019.12.04-22.23.51:173][744]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.
+[2019.12.04-22.24.01:418][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.12.04-22.24.01:423][806]LogMetaData: Removing '/Game/AI_BP/AI_Blueprints/FindSearchPoint.SKEL_FindSearchPoint_C' ref from Metadata '/Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.12.04-22.24.01:423][806]LogMetaData: Removing '/Game/AI_BP/AI_Blueprints/FindSearchPoint.FindSearchPoint_C' ref from Metadata '/Game/AI_BP/AI_Blueprints/BTTask_BlueprintBase_New.PackageMetaData'
+[2019.12.04-22.24.01:449][806]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FindSearchPointEE5972D44F5A7ABA1CFF5487790A30CA.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/FindSearchPoint.uasset'
+[2019.12.04-22.24.01:609][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2019.12.04-22.24.01:651][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.12.04-22.24.01:684][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2019.12.04-22.24.01:717][806]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI_BP/AI_Blueprints/FindSearchPoint.
+[2019.12.04-22.25.37:460][799]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_AIChar5DB499ED44D0291DE7FEF5A7E3FD8112.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/BT_AIChar.uasset'
+[2019.12.04-22.29.59:566][ 43]BlueprintLog: New page: Compile Attack
+[2019.12.04-22.29.59:567][ 43]LogBlueprint: Warning: [Compiler Attack] Cast To Actor  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2019.12.04-22.29.59:777][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.12.04-22.30.44:911][422]BlueprintLog: New page: Compile Attack
+[2019.12.04-22.30.45:128][422]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.12.04-22.30.45:686][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI_Blueprints/Attack" FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset" SILENT=true
+[2019.12.04-22.30.45:712][486]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Attack96D48C0A409DE70B071FA4B32F980C53.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset'
+[2019.12.04-22.31.16:894][249]BlueprintLog: New page: Compile Attack
+[2019.12.04-22.31.17:107][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.12.04-22.31.17:487][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/AI_Blueprints/Attack" FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset" SILENT=true
+[2019.12.04-22.31.17:509][291]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AttackEAA047D441CDF065081A739FECE20E13.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/Attack.uasset'
+[2019.12.04-22.39.29:048][893]BlueprintLog: New page: Compile FindSearchPoint
+[2019.12.04-22.39.29:266][893]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.12.04-22.39.29:832][954]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FindSearchPoint9BFC109A41F5452FD8D9ACA78AAC8D87.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/FindSearchPoint.uasset'
+[2019.12.04-22.40.11:867][877]BlueprintLog: New page: Compile FindSearchPoint
+[2019.12.04-22.40.12:085][877]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.12.04-22.40.12:599][932]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FindSearchPoint13F4009747D0F29175ED0E987A36EDB1.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/FindSearchPoint.uasset'
+[2019.12.04-22.40.43:282][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.12.04-22.40.44:861][124]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.04-22.40.44:928][124]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.12.04-22.40.45:174][124]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_Auto26F30E3EE4E6329FEA93BA69C07511A51.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2019.12.04-22.40.45:180][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.285
+[2019.12.04-22.40.45:180][124]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.285
+[2019.12.04-22.41.12:601][392]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/BT_AICharEC04BE2E49B73AD73EAECAAD0C8E9BF8.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/BT_AIChar.uasset'
+[2019.12.04-22.41.23:772][543]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_BP/AI_Blueprints/AIControl.AIControl
+[2019.12.04-22.41.33:097][606]BlueprintLog: New page: Compile AIControl
+[2019.12.04-22.41.33:321][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.12.04-22.41.33:767][648]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AIControl9673D6C54DD88867A10168AF45388629.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/AIControl.uasset'
+[2019.12.04-22.41.54:301][508]BlueprintLog: New page: Compile AIControl
+[2019.12.04-22.41.54:526][508]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.12.04-22.41.54:891][540]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AIControl62FAC0F841D3058288DF2F86DE974C96.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/AIControl.uasset'
+[2019.12.04-22.42.41:549][826]BlueprintLog: New page: Compile AIControl
+[2019.12.04-22.42.41:768][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2019.12.04-22.42.42:218][868]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AIControl311EEBE6440C459595F8208F0626BE5B.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/AI_Blueprints/AIControl.uasset'
+[2019.12.04-22.43.41:733][943]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2019.12.04-22.44.21:922][642]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.04-22.44.22:196][642]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2019.12.04-22.44.22:654][679]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterF816FEDC4D2857923C10A4B93CD6A416.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.04-22.44.36:926][234]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.12.04-22.44.37:168][234]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap013CEE2E4B42485DB82A0895AAD7D96D.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2019.12.04-22.44.38:861][234]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonExampleMap_BuiltData58261C1C4AF78A0497D52DA0DB5AF1C7.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.12.04-22.44.39:692][327]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.04-22.44.39:723][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.44.39:726][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.04-22.44.39:726][327]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2019, 12:44:39 PM)
+[2019.12.04-22.44.39:726][327]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.44.39:736][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009809s)
+[2019.12.04-22.44.39:737][327]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.04-22.44.39:737][327]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2019.12.04-22.44.39:737][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010743s)
+[2019.12.04-22.44.39:780][327]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.12.04-22.44.39:826][327]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.04-22.44.39:960][327]LogInit: FAudioDevice initialized.
+[2019.12.04-22.44.39:971][327]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.04-22.44.39:973][327]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.04-17.44.39
+[2019.12.04-22.44.39:973][327]LogWorld: Bringing up level for play took: 0.002253
+[2019.12.04-22.44.39:973][327]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2019.12.04-22.44.39:976][327]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.032
+[2019.12.04-22.44.39:976][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.44.52:442][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.44.52:449][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.44.52:449][820]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.44.52:449][820]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.04-22.44.52:457][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.04-22.44.52:457][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.44.52:499][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.44.52:503][820]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2019.12.04-22.44.52:558][822]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2019.12.04-22.44.56:953][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.04-22.45.11:990][145]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI_BP/TopDownAI/AICon_Basic.AICon_Basic
+[2019.12.04-22.45.25:386][703]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/AI_BP/TopDownAI/BB_Basic.BB_Basic
+[2019.12.04-22.45.33:784][696]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI_BP/TopDownAI/BT_Basic.BT_Basic
+[2019.12.04-22.46.44:532][153]BlueprintLog: New page: Compile AICon_Basic
+[2019.12.04-22.46.44:757][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2019.12.04-22.46.45:276][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI_BP/TopDownAI/AICon_Basic" FILE="../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/TopDownAI/AICon_Basic.uasset" SILENT=true
+[2019.12.04-22.46.45:313][210]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/AICon_Basic1E9FFD4646C6E4B8C9903B97855643B3.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/AI_BP/TopDownAI/AICon_Basic.uasset'
+[2019.12.04-22.46.48:497][589]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.04-22.46.48:544][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.46.48:547][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.04-22.46.48:547][589]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2019, 12:46:48 PM)
+[2019.12.04-22.46.48:547][589]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.46.48:557][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009769s)
+[2019.12.04-22.46.48:558][589]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.12.04-22.46.48:558][589]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2019.12.04-22.46.48:558][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.010668s)
+[2019.12.04-22.46.48:599][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2019.12.04-22.46.48:648][589]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.04-22.46.48:776][589]LogInit: FAudioDevice initialized.
+[2019.12.04-22.46.48:783][589]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.04-22.46.48:785][589]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.12.04-17.46.48
+[2019.12.04-22.46.48:786][589]LogWorld: Bringing up level for play took: 0.002276
+[2019.12.04-22.46.48:786][589]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2019.12.04-22.46.48:789][589]PIE: Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.779
+[2019.12.04-22.46.48:789][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.46.51:330][892]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	AICon_Basic_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.AICon_Basic_C_0
+	Function /Game/AI_BP/TopDownAI/AICon_Basic.AICon_Basic_C:ExecuteUbergraph_AICon_Basic:0317
+[2019.12.04-22.46.51:331][892]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  AICon_Basic Function:  Execute Ubergraph AICon Basic Graph:  EventGraph Node:  Set Value as Object
+[2019.12.04-22.47.05:129][547]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.47.05:133][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.47.05:133][547]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.12.04-22.47.05:133][547]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.04-22.47.05:149][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.04-22.47.05:149][547]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.12.04-22.47.05:193][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.04-22.47.05:197][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.12.04-22.47.05:205][547]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.04-22.47.05:241][548]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2019.12.04-22.47.12:670][428]LogSlate: Window 'Message Log' being destroyed
+[2019.12.04-22.47.12:674][428]LogSlate: Window 'Message Log' being destroyed
+[2019.12.04-22.47.43:634][138]LogEditorViewport: Clicking on Actor (LMB): AICharacter_C (AICharacter)
+[2019.12.04-22.47.46:818][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.04-22.47.46:827][452]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
