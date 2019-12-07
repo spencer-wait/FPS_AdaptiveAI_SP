@@ -1313,3 +1313,834 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.06-14.03.56:857][352]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
 [2019.12.06-14.03.57:184][352]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena5729CB0245B4619E91064DB94C273086.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena.umap'
 [2019.12.06-14.03.58:691][352]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena_BuiltData2D846C0446101CC16F20A0B269AE0BB5.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena_BuiltData.uasset'
+[2019.12.06-14.13.57:041][191]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2019.12.06-14.13.57:041][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCharacter/Maps/FirstPersonArena' took 0.041
+[2019.12.06-14.13.57:044][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton] ([1] browsable assets)...
+[2019.12.06-14.13.57:044][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton]
+[2019.12.06-14.13.57:060][191]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/SK_AR4_Skeleton_Auto6E4284292452F3A1F2084A78F96ABD28F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_Skeleton_Auto6.uasset'
+[2019.12.06-14.13.57:062][191]LogFileHelpers: Auto-saving content packages took 0.019
+[2019.12.06-14.56.43:266][877]LogHttp: Warning: 0000026589DA5440: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-14.56.43:266][877]LogHttp: Warning: 0000026589DA5440: request failed, libcurl error: 0 (No error)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 1 (Re-using existing connection! (#88) with host datarouter.ol.epicgames.com)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.208.48.150) port 443 (#88))
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 6 (Closing connection 88)
+[2019.12.06-14.56.43:267][877]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-14.56.43:601][878]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-15.43.43:313][328]LogHttp: Warning: 0000026589DA5440: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-15.43.43:313][328]LogHttp: Warning: 0000026589DA5440: request failed, libcurl error: 0 (No error)
+[2019.12.06-15.43.43:313][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-15.43.43:313][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 1 (Re-using existing connection! (#109) with host datarouter.ol.epicgames.com)
+[2019.12.06-15.43.43:313][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.236.93.59) port 443 (#109))
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 6 (Closing connection 109)
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-15.43.43:314][328]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-16.26.43:436][ 57]LogHttp: Warning: 0000026589DA5440: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: request failed, libcurl error: 0 (No error)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 1 (Re-using existing connection! (#130) with host datarouter.ol.epicgames.com)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.20.196.177) port 443 (#130))
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 6 (Closing connection 130)
+[2019.12.06-16.26.43:437][ 57]LogHttp: Warning: 0000026589DA5440: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-16.26.43:771][ 58]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: request failed, libcurl error: 0 (No error)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 1 (Re-using existing connection! (#157) with host datarouter.ol.epicgames.com)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.90.181) port 443 (#157))
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 6 (Closing connection 157)
+[2019.12.06-17.24.43:383][483]LogHttp: Warning: 000002654B27D1C0: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-17.24.43:717][484]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: request failed, libcurl error: 0 (No error)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 1 (Re-using existing connection! (#177) with host datarouter.ol.epicgames.com)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.4.51.163) port 443 (#177))
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 6 (Closing connection 177)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-18.02.43:509][304]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: request failed, libcurl error: 0 (No error)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 1 (Re-using existing connection! (#197) with host datarouter.ol.epicgames.com)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.80.175.210) port 443 (#197))
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 6 (Closing connection 197)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-18.44.43:513][846]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: request failed, libcurl error: 0 (No error)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 1 (Re-using existing connection! (#248) with host datarouter.ol.epicgames.com)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.123.19) port 443 (#248))
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 6 (Closing connection 248)
+[2019.12.06-20.31.43:467][ 69]LogHttp: Warning: 000002654B27CB80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-20.31.43:800][ 70]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-20.38.43:401][327]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#251) with host datarouter.ol.epicgames.com)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.23.98.45) port 443 (#251))
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 251)
+[2019.12.06-20.38.43:402][327]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-20.38.43:735][328]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#268) with host datarouter.ol.epicgames.com)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.196.66.229) port 443 (#268))
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 268)
+[2019.12.06-21.14.43:447][796]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-21.14.43:448][796]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-22.10.43:357][857]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#296) with host datarouter.ol.epicgames.com)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.55.229.147) port 443 (#296))
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 296)
+[2019.12.06-22.10.43:358][857]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-22.10.43:692][858]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-22.33.43:450][989]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#307) with host datarouter.ol.epicgames.com)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.17.106.84) port 443 (#307))
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 307)
+[2019.12.06-22.33.43:451][989]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-22.33.43:786][990]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#311) with host datarouter.ol.epicgames.com)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.173.159.232) port 443 (#311))
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 311)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-22.43.43:315][786]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#320) with host datarouter.ol.epicgames.com)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.236.162.182) port 443 (#320))
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 320)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.06-23.01.43:452][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#352) with host datarouter.ol.epicgames.com)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.199.205.253) port 443 (#352))
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 352)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-00.03.43:391][158]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-00.56.43:398][680]LogHttp: Warning: 0000026587F40680: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: request failed, libcurl error: 0 (No error)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 1 (Re-using existing connection! (#378) with host datarouter.ol.epicgames.com)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.235.243.192) port 443 (#378))
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 6 (Closing connection 378)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: 0000026587F40680: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-00.56.43:399][680]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: request failed, libcurl error: 0 (No error)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 1 (Re-using existing connection! (#383) with host datarouter.ol.epicgames.com)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.17.106.84) port 443 (#383))
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 6 (Closing connection 383)
+[2019.12.07-01.06.43:335][477]LogHttp: Warning: 0000026588E81580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-01.06.43:668][478]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-01.29.43:449][609]LogHttp: Warning: 0000026588E81580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: request failed, libcurl error: 0 (No error)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 1 (Re-using existing connection! (#395) with host datarouter.ol.epicgames.com)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.165.171.83) port 443 (#395))
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 6 (Closing connection 395)
+[2019.12.07-01.29.43:450][609]LogHttp: Warning: 0000026588E81580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-01.29.43:784][610]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: request failed, libcurl error: 0 (No error)
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 1 (Re-using existing connection! (#429) with host datarouter.ol.epicgames.com)
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.207.206.211) port 443 (#429))
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-02.33.43:435][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 6 (Closing connection 429)
+[2019.12.07-02.33.43:436][104]LogHttp: Warning: 0000026588E81580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-02.33.43:436][104]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: request failed, libcurl error: 0 (No error)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 1 (Re-using existing connection! (#432) with host datarouter.ol.epicgames.com)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.62.221) port 443 (#432))
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 6 (Closing connection 432)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: 0000026588E81580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-02.39.43:397][182]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-02.44.43:364][ 80]LogHttp: Warning: 0000026588E81580: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-02.44.43:364][ 80]LogHttp: Warning: 0000026588E81580: request failed, libcurl error: 0 (No error)
+[2019.12.07-02.44.43:364][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-02.44.43:364][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 1 (Re-using existing connection! (#434) with host datarouter.ol.epicgames.com)
+[2019.12.07-02.44.43:364][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.197.161.16) port 443 (#434))
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 6 (Closing connection 434)
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: 0000026588E81580: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-02.44.43:365][ 80]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: request failed, libcurl error: 0 (No error)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 1 (Re-using existing connection! (#463) with host datarouter.ol.epicgames.com)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.206.62.221) port 443 (#463))
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 6 (Closing connection 463)
+[2019.12.07-03.41.43:480][315]LogHttp: Warning: 0000026588E82340: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-03.41.43:813][316]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: request failed, libcurl error: 0 (No error)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 1 (Re-using existing connection! (#475) with host datarouter.ol.epicgames.com)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.197.129.254) port 443 (#475))
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 6 (Closing connection 475)
+[2019.12.07-04.04.43:408][445]LogHttp: Warning: 0000026588E82340: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-04.04.43:742][446]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-04.31.43:456][294]LogHttp: Warning: 00000265F6745300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: request failed, libcurl error: 0 (No error)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 1 (Re-using existing connection! (#489) with host datarouter.ol.epicgames.com)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.214.66.93) port 443 (#489))
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 6 (Closing connection 489)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: 00000265F6745300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-04.31.43:457][294]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-06.29.43:418][490]LogHttp: Warning: 00000265F6745300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-06.29.43:418][490]LogHttp: Warning: 00000265F6745300: request failed, libcurl error: 0 (No error)
+[2019.12.07-06.29.43:418][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-06.29.43:418][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 1 (Re-using existing connection! (#553) with host datarouter.ol.epicgames.com)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.97.25) port 443 (#553))
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 6 (Closing connection 553)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: 00000265F6745300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-06.29.43:419][490]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: request failed, libcurl error: 0 (No error)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 1 (Re-using existing connection! (#667) with host datarouter.ol.epicgames.com)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.1.90.14) port 443 (#667))
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 6 (Closing connection 667)
+[2019.12.07-10.06.43:451][453]LogHttp: Warning: 00000265F6745300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-10.06.43:784][454]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-10.55.43:425][252]LogHttp: Warning: 00000265F6745300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-10.55.43:425][252]LogHttp: Warning: 00000265F6745300: request failed, libcurl error: 0 (No error)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 1 (Re-using existing connection! (#692) with host datarouter.ol.epicgames.com)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.204.243.49) port 443 (#692))
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 6 (Closing connection 692)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: 00000265F6745300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-10.55.43:426][252]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: request failed, libcurl error: 0 (No error)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 1 (Re-using existing connection! (#710) with host datarouter.ol.epicgames.com)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.208.92.41) port 443 (#710))
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 6 (Closing connection 710)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: 00000265F6745300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-11.32.43:476][898]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-12.00.43:447][926]LogHttp: Warning: 00000266154E4E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-12.00.43:447][926]LogHttp: Warning: 00000266154E4E00: request failed, libcurl error: 0 (No error)
+[2019.12.07-12.00.43:447][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-12.00.43:447][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 1 (Re-using existing connection! (#723) with host datarouter.ol.epicgames.com)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.152.62.189) port 443 (#723))
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 6 (Closing connection 723)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-12.00.43:448][926]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-13.29.43:499][907]LogHttp: Warning: 00000266154E4E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: request failed, libcurl error: 0 (No error)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 1 (Re-using existing connection! (#769) with host datarouter.ol.epicgames.com)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.80.69.247) port 443 (#769))
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 6 (Closing connection 769)
+[2019.12.07-13.29.43:500][907]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-13.29.43:833][908]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-13.41.43:439][ 62]LogHttp: Warning: 00000266154E4E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-13.41.43:439][ 62]LogHttp: Warning: 00000266154E4E00: request failed, libcurl error: 0 (No error)
+[2019.12.07-13.41.43:439][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 1 (Re-using existing connection! (#775) with host datarouter.ol.epicgames.com)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.86.156.38) port 443 (#775))
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 6 (Closing connection 775)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-13.41.43:440][ 62]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: request failed, libcurl error: 0 (No error)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 1 (Re-using existing connection! (#781) with host datarouter.ol.epicgames.com)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.204.41.15) port 443 (#781))
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 6 (Closing connection 781)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: 00000266154E4E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-13.54.43:458][396]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-18.58.39:389][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-18.58.47:059][197]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.07-18.59.28:139][276]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-18.59.28:734][276]LogUObjectHash: Compacting FUObjectHashTables data took   8.32ms
+[2019.12.07-18.59.47:979][325]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-18.59.48:301][325]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2019.12.07-18.59.56:718][323]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-18.59.57:039][323]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2019.12.07-19.00.07:964][622]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.00.08:273][622]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.12.07-19.00.30:370][104]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.00.30:683][104]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2019.12.07-19.00.31:318][169]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_ParentF04DD77847AAFE1AC5EF9F9F9ADFA5B8.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.00.36:610][800]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.00.36:921][800]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.12.07-19.00.37:347][842]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent51CF38F545A5C7592DAF88B0C6153BB9.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.05.48:899][408]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.05.49:223][408]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2019.12.07-19.05.49:831][471]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_ParentBBA0A33147579DE4DD438AAF76CB084A.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.06.31:875][443]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.06.32:191][443]LogUObjectHash: Compacting FUObjectHashTables data took   6.91ms
+[2019.12.07-19.06.32:459][466]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent364B633F43EC654A94E0388E8003048C.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.08.30:981][995]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.08.31:313][995]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2019.12.07-19.08.31:832][ 31]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter590860A240D70854D84666B6F30CF575.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.10.16:134][326]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.07-19.11.26:065][730]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent2463F93F4A69F64B96D458AD6543689C.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.13.02:045][305]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.13.02:370][305]LogUObjectHash: Compacting FUObjectHashTables data took   5.65ms
+[2019.12.07-19.13.02:729][337]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent533094904978E85986A96AB710D85AF4.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.14.03:114][599]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.14.03:440][599]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2019.12.07-19.14.04:090][666]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent6E30D46B4FD91C1BCD7CEB9EC9E097C3.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.14.06:849][990]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.14.08:773][192]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2019.12.07-19.14.09:104][192]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena69AF200C480300EFB34026AFF5F782AE.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena.umap'
+[2019.12.07-19.14.10:755][192]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena_BuiltData00A6633A425915A274AADF9B2FE35B0F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena_BuiltData.uasset'
+[2019.12.07-19.14.23:977][981]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.07-19.14.42:926][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.14.48:610][342]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.12.07-19.15.02:134][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.15.14:220][270]LogRenderer: Reallocating scene render targets to support 3200x2016 Format 10 NumSamples 1 (Frame:41818).
+[2019.12.07-19.15.14:279][271]LogRenderer: Reallocating scene render targets to support 3320x2016 Format 10 NumSamples 1 (Frame:41822).
+[2019.12.07-19.15.14:343][272]LogRenderer: Reallocating scene render targets to support 3436x2016 Format 10 NumSamples 1 (Frame:41826).
+[2019.12.07-19.15.14:451][273]LogRenderer: Reallocating scene render targets to support 3596x2016 Format 10 NumSamples 1 (Frame:41830).
+[2019.12.07-19.15.14:584][274]LogRenderer: Reallocating scene render targets to support 3720x2016 Format 10 NumSamples 1 (Frame:41834).
+[2019.12.07-19.15.31:883][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.15.32:807][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.15.35:448][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.15.47:477][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.16.24:767][890]LogSlate: Window 'Reset UI Layout' being destroyed
+[2019.12.07-19.17.27:003][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.17.27:064][718]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.17.27:629][718]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2019.12.07-19.17.32:713][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.17.32:789][119]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.17.33:156][119]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.12.07-19.18.13:232][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.18.13:290][262]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.18.13:721][262]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.12.07-19.18.19:355][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.18.19:433][697]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.18.19:830][697]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2019.12.07-19.18.24:047][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.18.24:117][ 25]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.18.24:500][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.12.07-19.18.36:001][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.18.36:064][929]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.18.36:432][929]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2019.12.07-19.18.41:733][338]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.07-19.18.41:758][338]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.18.41:758][338]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.07-19.18.41:758][338]PIE: New page: PIE session: FirstPersonArena (Dec 7, 2019, 9:18:41 AM)
+[2019.12.07-19.18.41:759][338]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.18.41:787][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028062s)
+[2019.12.07-19.18.41:788][338]LogAIModule: Creating AISystem for world FirstPersonArena
+[2019.12.07-19.18.41:788][338]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2019.12.07-19.18.41:788][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.029491s)
+[2019.12.07-19.18.41:822][338]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2019.12.07-19.18.41:869][338]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.07-19.18.42:003][338]LogInit: FAudioDevice initialized.
+[2019.12.07-19.18.42:009][338]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.07-19.18.42:012][338]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2019.12.07-14.18.42
+[2019.12.07-19.18.42:013][338]LogWorld: Bringing up level for play took: 0.003254
+[2019.12.07-19.18.42:014][338]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2019.12.07-19.18.42:016][338]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena 0.612
+[2019.12.07-19.18.42:017][338]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.18.50:379][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.18.50:379][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.18.50:379][247]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.18.50:379][247]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.18.50:389][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.07-19.18.50:389][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.18.50:428][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.18.50:434][247]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2019.12.07-19.18.50:497][248]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.12.07-19.18.55:471][733]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2019.12.07-19.19.03:749][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.19.10:930][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.19.11:001][938]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.19.11:406][938]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.12.07-19.19.25:956][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.19.26:017][ 90]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.19.26:386][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2019.12.07-19.19.43:972][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.19.55:752][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.19.55:828][338]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.19.56:284][338]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.12.07-19.20.11:618][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.20.11:687][542]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.20.12:063][542]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2019.12.07-19.20.27:513][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.20.27:576][755]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.20.27:954][755]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2019.12.07-19.20.34:629][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.20.34:700][271]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.20.35:070][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.12.07-19.20.39:157][580]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.07-19.20.39:182][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.20.39:182][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.07-19.20.39:182][580]PIE: New page: PIE session: FirstPersonArena (Dec 7, 2019, 9:20:39 AM)
+[2019.12.07-19.20.39:182][580]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.20.39:192][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010035s)
+[2019.12.07-19.20.39:193][580]LogAIModule: Creating AISystem for world FirstPersonArena
+[2019.12.07-19.20.39:193][580]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2019.12.07-19.20.39:193][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.011189s)
+[2019.12.07-19.20.39:229][580]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2019.12.07-19.20.39:275][580]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.07-19.20.39:410][580]LogInit: FAudioDevice initialized.
+[2019.12.07-19.20.39:419][580]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.07-19.20.39:421][580]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2019.12.07-14.20.39
+[2019.12.07-19.20.39:423][580]LogWorld: Bringing up level for play took: 0.002722
+[2019.12.07-19.20.39:423][580]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2019.12.07-19.20.39:425][580]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena 0.02
+[2019.12.07-19.20.39:425][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.20.49:656][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.20.49:657][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.20.49:657][684]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.20.49:657][684]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.20.49:683][684]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.07-19.20.49:684][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.20.49:730][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.20.49:735][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2019.12.07-19.20.49:781][685]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.12.07-19.21.08:194][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.21.08:302][ 27]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.21.08:608][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2019.12.07-19.21.13:219][455]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2019.12.07-19.22.04:296][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.23.56:525][699]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.23.56:551][699]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a Gun_Parent_C, therefore ' Target ' must have a connection.
+[2019.12.07-19.23.56:855][699]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2019.12.07-19.23.57:285][737]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter25FE20DF4BF1D9C120ACE8983ABC76E1.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.24.09:935][248]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.24.09:953][248]LogActor: Warning: Gun_Parent_C /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.24.09:955][248]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_3:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.24.09:957][248]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_15:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.24.10:236][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2019.12.07-19.24.10:602][277]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter61C784B9413AC86903EFEAAAF3E24AA1.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.24.22:689][687]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.Gun_Parent
+[2019.12.07-19.25.10:406][328]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_437.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.10:408][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_437.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.10:410][328]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4157.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.16:289][991]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_440.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.16:291][991]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_440.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.16:293][991]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4160.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.22:777][749]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_443.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.22:778][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_443.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.22:780][749]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4163.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.26:215][159]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_446.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.26:216][159]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_446.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.26:218][159]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4166.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.28:736][459]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.25.28:774][459]LogActor: Warning: Gun_Parent_C /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.28:777][459]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_3:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.28:779][459]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_15:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.29:081][459]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2019.12.07-19.25.29:086][459]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_451.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.29:087][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_451.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.29:089][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4171.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.29:105][459]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_457.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.29:107][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_457.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.29:108][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4177.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:568][350]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_463.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:570][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_463.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:571][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4183.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:577][350]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_466.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:579][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_466.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.36:580][350]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4186.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: request failed, libcurl error: 0 (No error)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x26565d43f70 [can pipeline])
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 1 (Re-using existing connection! (#963) with host datarouter.ol.epicgames.com)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.45.123.19) port 443 (#963))
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 6 (Closing connection 963)
+[2019.12.07-19.25.43:068][123]LogHttp: Warning: 000002668A947600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.12.07-19.25.43:077][124]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D129DC9-41C8-1441-1463-438B58EE1206%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=f6d98bbb46cb30b9fa86a7a224cfc443%7Ca3a5b5f9fe9d4141b63a1c707c94e218%7C82a38335-0911-460e-827a-ca12abc5b750&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.12.07-19.25.48:034][718]BlueprintLog: New page: Compile Gun_Parent
+[2019.12.07-19.25.48:060][718]LogActor: Warning: Gun_Parent_C /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.48:062][718]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_3:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.48:064][718]LogActor: Warning: Gun_Parent_C /Engine/Transient.World_15:PersistentLevel.Gun_GEN_VARIABLE_Gun_Parent_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.12.07-19.25.48:359][718]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2019.12.07-19.25.48:364][718]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_471.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.48:366][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_471.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.48:367][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4191.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.48:383][718]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_477.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.48:385][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_477.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.48:386][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4197.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.25.50:865][  5]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent3391493B4F187159B9414A9794CF264D.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
+[2019.12.07-19.26.34:554][782]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.26.34:874][782]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2019.12.07-19.26.34:877][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4206.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.34:878][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_486.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.34:881][782]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_486.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.34:912][782]LogActorComponent: RegisterComponentWithWorld: (/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_492.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.34:914][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_492.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.34:916][782]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.DESTROYED_Gun_Parent_C_CHILDACTOR_4212.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.12.07-19.26.35:341][820]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterAA25C0B94B2505368CD68CA2C92CCC34.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.27.26:403][777]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.
+[2019.12.07-19.27.42:696][ 78]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.GunSemiAutomatic
+[2019.12.07-19.27.45:283][292]LogSlate: Window 'GunSemiAutomatic' being destroyed
+[2019.12.07-19.27.49:654][812]BlueprintLog: New page: Compile GunSemiAutomatic
+[2019.12.07-19.27.49:954][812]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2019.12.07-19.27.50:341][848]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/GunSemiAutomatic778DA8984341AC830F09CE80D13B3DFA.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.uasset'
+[2019.12.07-19.27.50:349][848]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.
+[2019.12.07-19.28.52:431][921]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2019.12.07-19.28.52:753][921]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena_Auto77CB1D5D344847B88FD15419901A3FD00.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonCharacter/Maps/FirstPersonArena_Auto7.umap'
+[2019.12.07-19.28.52:757][921]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCharacter/Maps/FirstPersonArena' took 0.369
+[2019.12.07-19.28.52:757][921]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.369
+[2019.12.07-19.28.52:759][921]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic] ([1] browsable assets)...
+[2019.12.07-19.28.52:779][921]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.GunSemiAutomatic]
+[2019.12.07-19.28.52:779][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic]
+[2019.12.07-19.28.52:809][921]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/GunSemiAutomatic_Auto777594B3A40DFF74FE117139B7E92FCAB.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Autosaves/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic_Auto7.uasset'
+[2019.12.07-19.28.52:810][921]LogFileHelpers: Auto-saving content packages took 0.051
+[2019.12.07-19.29.28:316][691]BlueprintLog: New page: Compile GunSemiAutomatic
+[2019.12.07-19.29.28:626][691]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.12.07-19.29.29:089][738]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/GunSemiAutomatic8F6968FB40DBE6AE8BB54B915CAA6804.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.uasset'
+[2019.12.07-19.29.41:904][792]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.07-19.30.06:064][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.Gun_SemiAutomatic:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.SKEL_Gun_SemiAutomatic_C' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.Gun_SemiAutomatic_C' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.Gun_SemiAutomatic:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.Gun_SemiAutomatic:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:077][579]LogMetaData: Removing '/Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.Gun_SemiAutomatic:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FirstPersonCharacter/Blueprints/Guns/GunSemiAutomatic.PackageMetaData'
+[2019.12.07-19.30.06:132][579]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_SemiAutomaticB46DB52144D51865F48BE7B499E01EE7.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.uasset'
+[2019.12.07-19.30.06:491][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2019.12.07-19.30.06:532][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.12.07-19.30.06:567][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.12.07-19.30.06:606][579]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FirstPersonCharacter/Blueprints/Guns/Gun_SemiAutomatic.
+[2019.12.07-19.30.15:950][678]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.07-19.30.42:657][243]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.30.42:944][243]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.12.07-19.30.43:592][302]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacterEDDDE8DC43AF9CFFA00D0AB2FB03CF7F.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.30.46:778][675]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.07-19.30.46:811][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.30.46:811][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.07-19.30.46:812][675]PIE: New page: PIE session: FirstPersonArena (Dec 7, 2019, 9:30:46 AM)
+[2019.12.07-19.30.46:812][675]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.30.46:821][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009571s)
+[2019.12.07-19.30.46:822][675]LogAIModule: Creating AISystem for world FirstPersonArena
+[2019.12.07-19.30.46:822][675]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.12.07-19.30.46:822][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.010460s)
+[2019.12.07-19.30.46:868][675]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2019.12.07-19.30.46:914][675]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.07-19.30.47:052][675]LogInit: FAudioDevice initialized.
+[2019.12.07-19.30.47:056][675]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.07-19.30.47:058][675]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2019.12.07-14.30.47
+[2019.12.07-19.30.47:059][675]LogWorld: Bringing up level for play took: 0.002727
+[2019.12.07-19.30.47:060][675]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2019.12.07-19.30.47:062][675]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena -0.343
+[2019.12.07-19.30.47:062][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.30.56:410][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.30.56:411][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.30.56:411][793]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.30.56:411][793]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.30.56:436][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.07-19.30.56:437][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.30.56:478][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.30.56:483][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.12.07-19.30.56:513][794]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.12.07-19.31.01:325][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.31.06:557][964]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.07-19.31.06:587][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.31.06:587][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.07-19.31.06:587][964]PIE: New page: PIE session: FirstPersonArena (Dec 7, 2019, 9:31:06 AM)
+[2019.12.07-19.31.06:587][964]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.31.06:597][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009884s)
+[2019.12.07-19.31.06:598][964]LogAIModule: Creating AISystem for world FirstPersonArena
+[2019.12.07-19.31.06:598][964]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2019.12.07-19.31.06:598][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.010882s)
+[2019.12.07-19.31.06:640][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.12.07-19.31.06:695][964]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.07-19.31.06:831][964]LogInit: FAudioDevice initialized.
+[2019.12.07-19.31.06:835][964]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.07-19.31.06:837][964]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2019.12.07-14.31.06
+[2019.12.07-19.31.06:839][964]LogWorld: Bringing up level for play took: 0.002908
+[2019.12.07-19.31.06:839][964]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2019.12.07-19.31.06:842][964]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena -0.564
+[2019.12.07-19.31.06:842][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.31.31:678][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.31.31:678][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.31.31:678][919]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.31.31:678][919]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.31.31:689][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.07-19.31.31:689][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.31.31:732][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.31.31:738][919]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2019.12.07-19.31.31:803][921]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.12.07-19.31.43:795][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.07-19.32.32:951][318]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.12.07-19.32.32:962][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:962][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:962][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:962][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:963][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:964][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:965][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:966][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:967][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:968][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:969][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:970][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:971][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:971][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:971][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:971][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:971][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:972][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:973][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:974][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:974][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:974][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:979][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:979][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:979][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:983][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:984][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.32:984][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:005][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:006][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:007][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:010][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:015][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:020][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:020][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:020][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:025][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:025][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:025][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:025][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:026][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:029][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:053][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:067][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:100][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:100][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:118][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:156][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:176][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:176][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:176][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:176][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:180][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:191][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:203][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:203][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:205][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:205][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:206][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:206][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:206][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.33:206][318]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.07-19.32.37:927][722]BlueprintLog: New page: Compile FirstPersonCharacter
+[2019.12.07-19.32.38:512][722]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2019.12.07-19.32.39:080][752]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonCharacter2D79ED6B4C7BFBF9F8441E9FCAA25A02.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonCharacter.uasset'
+[2019.12.07-19.32.41:208][995]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.07-19.32.41:242][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.32.41:242][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.07-19.32.41:242][995]PIE: New page: PIE session: FirstPersonArena (Dec 7, 2019, 9:32:41 AM)
+[2019.12.07-19.32.41:242][995]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.32.41:252][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009812s)
+[2019.12.07-19.32.41:253][995]LogAIModule: Creating AISystem for world FirstPersonArena
+[2019.12.07-19.32.41:253][995]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2019.12.07-19.32.41:253][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.010989s)
+[2019.12.07-19.32.41:299][995]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2019.12.07-19.32.41:347][995]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO Wireless Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.12.07-19.32.41:489][995]LogInit: FAudioDevice initialized.
+[2019.12.07-19.32.41:498][995]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.12.07-19.32.41:500][995]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2019.12.07-14.32.41
+[2019.12.07-19.32.41:501][995]LogWorld: Bringing up level for play took: 0.002884
+[2019.12.07-19.32.41:501][995]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2019.12.07-19.32.41:504][995]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena 0.1
+[2019.12.07-19.32.41:504][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.32.55:819][709]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.32.55:819][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.32.55:819][709]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2019.12.07-19.32.55:820][709]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2019.12.07-19.32.55:847][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.07-19.32.55:847][709]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2019.12.07-19.32.55:886][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.07-19.32.55:891][709]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2019.12.07-19.32.55:920][710]LogPlayLevel: Display: Destroying online subsystem :Context_43
