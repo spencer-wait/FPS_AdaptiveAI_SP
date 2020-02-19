@@ -1862,3 +1862,96 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.19-14.20.22:753][297]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonHUD7FCE2161466B833359B2F38EF2B2D801.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/FirstPersonHUD.uasset'
 [2020.02.19-14.20.25:654][528]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_ParentCAB41DB34E9AA3861EE221AC9E94B944.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
 [2020.02.19-14.20.27:638][707]LogSlate: Window 'Gun_Parent' being destroyed
+[2020.02.19-14.22.24:634][461]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.19-14.22.24:668][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.22.24:668][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.19-14.22.24:668][461]PIE: New page: PIE session: FirstPersonArena (Feb 19, 2020, 4:22:24 AM)
+[2020.02.19-14.22.24:668][461]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.22.24:678][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009980s)
+[2020.02.19-14.22.24:679][461]LogAIModule: Creating AISystem for world FirstPersonArena
+[2020.02.19-14.22.24:679][461]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2020.02.19-14.22.24:679][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.010977s)
+[2020.02.19-14.22.24:719][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.02.19-14.22.24:782][461]LogInit: XAudio2 using 'Headphones (Corsair ST100 Headset Output)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2020.02.19-14.22.24:931][461]LogInit: FAudioDevice initialized.
+[2020.02.19-14.22.24:942][461]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.02.19-14.22.24:945][461]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2020.02.19-09.22.24
+[2020.02.19-14.22.24:946][461]LogWorld: Bringing up level for play took: 0.003134
+[2020.02.19-14.22.24:946][461]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.02.19-14.22.24:949][461]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena 1.228
+[2020.02.19-14.22.24:950][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.22.34:014][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.22.34:014][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.22.34:014][545]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.22.34:014][545]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2020.02.19-14.22.34:023][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.19-14.22.34:023][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.22.34:074][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.22.34:078][545]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.02.19-14.22.34:114][547]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.02.19-14.26.55:864][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.19-14.26.55:918][713]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.19-14.26.55:950][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.26.55:950][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.19-14.26.55:950][713]PIE: New page: PIE session: FirstPersonArena (Feb 19, 2020, 4:26:55 AM)
+[2020.02.19-14.26.55:950][713]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.26.55:961][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010682s)
+[2020.02.19-14.26.55:962][713]LogAIModule: Creating AISystem for world FirstPersonArena
+[2020.02.19-14.26.55:962][713]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2020.02.19-14.26.55:962][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.011676s)
+[2020.02.19-14.26.55:999][713]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.02.19-14.26.56:059][713]LogInit: XAudio2 using 'Headphones (Corsair ST100 Headset Output)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2020.02.19-14.26.56:202][713]LogInit: FAudioDevice initialized.
+[2020.02.19-14.26.56:209][713]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.02.19-14.26.56:211][713]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2020.02.19-09.26.56
+[2020.02.19-14.26.56:212][713]LogWorld: Bringing up level for play took: 0.002919
+[2020.02.19-14.26.56:212][713]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.02.19-14.26.56:216][713]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena 0.494
+[2020.02.19-14.26.56:216][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.27.52:108][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.27.52:108][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.27.52:108][413]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.27.52:109][413]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2020.02.19-14.27.52:116][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.19-14.27.52:116][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.27.52:160][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.27.52:164][413]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.02.19-14.27.52:215][417]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.02.19-14.31.17:656][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.19-14.36.34:751][490]BlueprintLog: New page: Compile Gun_Parent
+[2020.02.19-14.36.34:766][490]LogBlueprint: Error: [Compiler Gun_Parent] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.02.19-14.36.34:995][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.02.19-14.36.54:097][771]BlueprintLog: New page: Compile Gun_Parent
+[2020.02.19-14.36.54:344][771]LogUObjectHash: Compacting FUObjectHashTables data took   4.17ms
+[2020.02.19-14.36.56:822][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.19-14.36.56:863][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.36.56:863][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.19-14.36.56:863][ 61]PIE: New page: PIE session: FirstPersonArena (Feb 19, 2020, 4:36:56 AM)
+[2020.02.19-14.36.56:863][ 61]LogPlayLevel: Creating play world package: /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.36.56:873][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009992s)
+[2020.02.19-14.36.56:874][ 61]LogAIModule: Creating AISystem for world FirstPersonArena
+[2020.02.19-14.36.56:874][ 61]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2020.02.19-14.36.56:874][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena to /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena (0.011013s)
+[2020.02.19-14.36.56:908][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.02.19-14.36.56:969][ 61]LogInit: XAudio2 using 'Headphones (Corsair ST100 Headset Output)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2020.02.19-14.36.57:109][ 61]LogInit: FAudioDevice initialized.
+[2020.02.19-14.36.57:116][ 61]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.02.19-14.36.57:118][ 61]LogWorld: Bringing World /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena.FirstPersonArena up for play (max tick rate 0) at 2020.02.19-09.36.57
+[2020.02.19-14.36.57:120][ 61]LogWorld: Bringing up level for play took: 0.002734
+[2020.02.19-14.36.57:120][ 61]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.02.19-14.36.57:122][ 61]PIE: Play in editor start time for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena -0.599
+[2020.02.19-14.36.57:122][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.38.08:206][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.38.08:206][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.38.08:206][585]LogWorld: BeginTearingDown for /Game/FirstPersonCharacter/Maps/UEDPIE_0_FirstPersonArena
+[2020.02.19-14.38.08:207][585]LogWorld: UWorld::CleanupWorld for FirstPersonArena, bSessionEnded=true, bCleanupResources=true
+[2020.02.19-14.38.08:214][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.19-14.38.08:215][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena' with GeneratedClass '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena_C' with ClassGeneratedBy '/Game/FirstPersonCharacter/Maps/FirstPersonArena.FirstPersonArena:PersistentLevel.FirstPersonArena'
+[2020.02.19-14.38.08:253][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.19-14.38.08:257][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2020.02.19-14.38.08:306][589]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.02.19-14.39.09:654][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.19-14.39.09:750][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.02.19-14.39.09:999][879]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArenaEC72A6D248093E0B31FF47BFEA40794E.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena.umap'
+[2020.02.19-14.39.11:598][879]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/FirstPersonArena_BuiltData157C190D4A1ED4A938297E893AE7AF68.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Maps/FirstPersonArena_BuiltData.uasset'
+[2020.02.19-14.39.13:382][ 73]LogSavePackage: Moving '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Saved/Gun_Parent2FD7B9294ED13B40D888D289A4766ED7.tmp' to '../../../../../../Users/Spencer/Documents/Unreal Projects/FPS_AdaptiveAI_SP/Content/FirstPersonCharacter/Blueprints/Guns/Gun_Parent.uasset'
